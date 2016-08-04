@@ -2,3 +2,6 @@
 #manifest h3{
 	background-color: rgba(255, 255, 255, 0.6);
 }
+ .reveal .slide-background.present {
+    opacity: 0.4;
+    }

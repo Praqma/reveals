@@ -14,10 +14,26 @@ All projects starts with a goal/vision
 
 agile manifesto
 
+Terminology
+Goal/vision
+Breakdown
+Estimates
+Prioritization
+
+Product backlog
+Planning
+Sprint backlog
+Sprint review
+
+milestones
 
 
 Still think we should use the Praqmatic Workflow here - I realize that we would be showing tools that they arenfamilailr with - but the weight would be on GitHub Issues and Waffle - it woudl be a demonstration, and they could easily do a few exercises!
 
 Part2:
 So how to do it: practical
+Praqmatic workflow
+Github Issues
 
+Estimates
+Prio
