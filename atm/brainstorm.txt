@@ -27,6 +27,34 @@ Sprint review
 
 milestones
 
+What is wrong with the old ways of doing things?
+End user feedback.
+Old: In the end
+New: all the time!
+
+Start by a vission: What is it the end user wants, or imagines?
+Note that the vission can change!
+Statement of work
+Briefing: Do you get it? If not, then continue
+
+What is the first delivery?
+MVP
+
+MoSCoW principle:
+
+
+Deadlines:
+Milestones: Flexible sprints.
+
+You can always deliver something
+
+Every single commit is a potential release candidate
+
+Backlog:
+
+
+
+
 
 Still think we should use the Praqmatic Workflow here - I realize that we would be showing tools that they arenfamilailr with - but the weight would be on GitHub Issues and Waffle - it woudl be a demonstration, and they could easily do a few exercises!
 

@@ -5,3 +5,9 @@
  .reveal .slide-background.present {
     opacity: 0.4;
     }
+    
+.reveal section img{
+	border: 0px solid #000;
+box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
+	
+}

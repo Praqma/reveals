@@ -2,36 +2,41 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
+<meta charset="utf-8">
 
-	<title></title>
+<title></title>
 
-	<meta name="description" content="Agile Task Management">
-	<meta name="author" content="Sofus Albertsen">
+<meta name="description" content="Agile Task Management">
+<meta name="author" content="Sofus Albertsen">
 
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style"
+	content="black-translucent">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<link rel="stylesheet" href="../reveal.js/css/reveal.css">
-	<link rel="stylesheet" href="css/atm.css">
-	<link rel="stylesheet" href="../reveal.js/css/theme/simple.css" id="theme">
-	<link rel="stylesheet" href="../theme/praqma-simple.css" id="theme">
+<link rel="stylesheet" href="../reveal.js/css/reveal.css">
+<link rel="stylesheet" href="../reveal.js/css/theme/simple.css"
+	id="theme">
+<link rel="stylesheet" href="../theme/praqma-simple.css" id="theme">
+<link rel="stylesheet" href="css/atm.css">
 
-	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
 
-	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement('link');s
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? '../reveal.js/css/print/pdf.css' : '../reveal.js/css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-	</script>
+<!-- Printing and PDF exports -->
+<script>
+	var link = document.createElement('link');
+	s
+	link.rel = 'stylesheet';
+	link.type = 'text/css';
+	link.href = window.location.search.match(/print-pdf/gi) ? '../reveal.js/css/print/pdf.css'
+			: '../reveal.js/css/print/paper.css';
+	document.getElementsByTagName('head')[0].appendChild(link);
+</script>
 
-	<!--[if lt IE 9]>
+<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 </head>
@@ -49,72 +54,152 @@
 					<small>Created by Sofus Albertsen</small>
 				</p>
 			</section>
-				<section>
-					<h2>Layout</h2>
-					<p></p>
-					<ul>
+			<section>
+				<h2>Layout</h2>
+				<p></p>
+				<ul>
 					<li>2 hours section</li>
 					<li>45 min blocks</li>
 					<li>twofold:</li>
 					<ul>
-					<li>Part 1: History and theory of task management</li>
-					<li>Part 2: How we do it</li>
+						<li>Part 1: History and theory of task management</li>
+						<li>Part 2: How we do it</li>
 					</ul>
-					</ul>
-				</section>
-				<section>
+				</ul>
+			</section>
+			<section>
 				<h1>Part 1</h1>
 				<h2>History and theory</h2>
-				</section>
-				<section>
+			</section>
+			<section>
 				<h1>Task management</h1>
 				<h3>The question all management theory tries to answer is:</h3>
-				<h2>What to work on next?</h2>
-				</section>
-				<section data-background-image="img/elephant.jpg" >
+				<h2>What to work on (next)?</h2>
+			</section>
+			<section data-background-image="img/elephant.jpg">
 				<h1>The elephant</h1>
 				<p>All projects are elephants</p>
 				<p>In order to eat one, you need to cut it up to smaller chunks</p>
-				
-				</section>
 
-				<section >
+			</section>
+
+			<section>
 				<h1>Old days</h1>
 				<img alt="" src="img/waterfall.png" width="60%">
-				
-				</section>
-				<section id="manifest" data-background-image="img/agileman.png" >
+
+			</section>
+			<section id="manifest" data-background-image="img/agileman.png">
 				<h1>Agile manifesto</h1>
-				<h3 class="fragment current-visible">Early and continuous delivery of valuable software</h3>
-				<h3 class="fragment current-visible">Always deliver Minimum Viable Product (MVP)</h3>
-				<h3 class="fragment current-visible">Healthy and efficient environment</h3>
-				<h3 class="fragment current-visible">Working software is the primary measure of progress</h3>
-				<h3>  </h3>
-				</section>
-				
-				<section>
+				<h3 class="fragment current-visible">Early and continuous
+					delivery of valuable software</h3>
+				<h3 class="fragment current-visible">Always deliver Minimum
+					Viable Product (MVP)</h3>
+				<h3 class="fragment current-visible">Healthy and efficient
+					environment</h3>
+				<h3 class="fragment current-visible">Working software is the
+					primary measure of progress</h3>
+				<h3></h3>
+			</section>
+
+			<section>
 				<h1>Agile planning</h1>
-				<p>agile planning is to refine tasks that are small enough to create momentum and prioritize them according to value.</p>
-				</section>
-				
+				<p>Refine tasks so that they are small enough to create momentum
+					and prioritize them according to value.</p>
+			</section>
+
+			<section>
+				<h2>What is wrong with the old ways?</h2>
+				<h1>User feedback loop</h1>
+				<table>
+					<thead>
+						<tr>
+							<td>Waterfall</td>
+							<td></td>
+							<td>Agile</td>
+						</tr>
+					</thead>
+					<tr>
+						<td>At release</td>
+						<td></td>
+						<td>All the time!</td>
+					</tr>
+				</table>
+				<br>
+				<h3>We are making software, not bridges!</h3>
+			</section>
+
+			<section>
+				<h1>We need to make something!</h1>
+				<h3>Aka. How to start</h3>
+			</section>
+			<section>
 				<section>
-				<h3>Scrum</h3>
-				<img alt="" src="img/scrum.png" width="90%">
-				</section>
-				
-				<section data-background-image="img/scrum.png">
-				<h3>Product backlog</h3>
-				<p>All 
+				<h2>User has a vision</h2>
+				<p>High level description of a concrete problem, issue or
+					feature.</p>
+					<p>What is it that the user wants right now?</p>
+					<br>
+				<h3>Can be called Epic, SoW, Briefing</h3>
+				<p>Important thing: Do you get what they want?</p>
+				<p>if no, try again</p>
 				</section>
 				<section>
-				<h2>Terminology</h2>
-				
+					<h1>Statement Of Work</h1>
+					<p>Essentially, it describes a possible delivery and covers the
+						following:</p>
+					<ul>
+						<li>Goal statement</li>
+						<li>Suggested solution</li>
+						<li>Estimated workload (≈ price)</li>
+						<li>Deliverables</li>
+					</ul>
 				</section>
-				
-				<section>
+
+			</section>
+<section>
+<section>
+<h1>We still haven't made something!</h1>
+<h3>Aka Minum viable product</h3>
+</section>
+<section>
+<h1>MoSCoW</h1>
+</section>
+<section>
+<h1>Minimum Viable Product</h1>
+</section>
+<section>
+<h1>Work breakdown</h1>
+</section>
+<section>
+<h1>
+Milestones
+</h1>
+<p>Flexible Sprints with fixed deadline</p>
+<p>Given these resources (manpower), this deadline (date) what volume (work) can I expect?</p>
+<p>Only volume should be flexible</p>
+</section>
+<section>
+<h1>Special milestones</h1>
+<p>Backlog</p>
+<p>Runway</p>
+</section>
+<section>
+<h3>But what if we do not make it?</h3>
+<h2>In CD every single commit is a potential release candidate!</h2>
+<p>You can always deliver something</p>
+</section>
+
+</section>
+<section>
+<h1>Hands on:</h1>
+
+</section>
+
+			<section>
 				<h1>Part 2</h1>
 				<h2>The praqmatic workflow</h2>
-				</section>
+				<img alt="" src="img/labels.png">
+			</section>
 
 		</div>
 
@@ -126,42 +211,42 @@
 	<script>
 		// More info https://github.com/hakimel/reveal.js#configuration
 		Reveal.initialize({
-			controls: true,
-			progress: true,
-			history: true,
-			center: true,
+			controls : true,
+			progress : true,
+			history : true,
+			center : true,
 
-			transition: 'convex', // none/fade/slide/convex/concave/zoom
+			transition : 'convex', // none/fade/slide/convex/concave/zoom
 
 			// More info https://github.com/hakimel/reveal.js#dependencies
-			dependencies: [{
-				src: 'lib/js/classList.js',
-				condition: function() {
+			dependencies : [ {
+				src : 'lib/js/classList.js',
+				condition : function() {
 					return !document.body.classList;
 				}
 			}, {
-				src: 'plugin/markdown/marked.js',
-				condition: function() {
+				src : 'plugin/markdown/marked.js',
+				condition : function() {
 					return !!document.querySelector('[data-markdown]');
 				}
 			}, {
-				src: 'plugin/markdown/markdown.js',
-				condition: function() {
+				src : 'plugin/markdown/markdown.js',
+				condition : function() {
 					return !!document.querySelector('[data-markdown]');
 				}
 			}, {
-				src: 'plugin/highlight/highlight.js',
-				async: true,
-				callback: function() {
+				src : 'plugin/highlight/highlight.js',
+				async : true,
+				callback : function() {
 					hljs.initHighlightingOnLoad();
 				}
 			}, {
-				src: 'plugin/zoom-js/zoom.js',
-				async: true
+				src : 'plugin/zoom-js/zoom.js',
+				async : true
 			}, {
-				src: 'plugin/notes/notes.js',
-				async: true
-			}]
+				src : 'plugin/notes/notes.js',
+				async : true
+			} ]
 		});
 	</script>
 
