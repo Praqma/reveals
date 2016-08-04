@@ -138,3 +138,23 @@ body {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+
+body {
+      background-image: url('../images/logo.png'),url('../images/footer.png');
+      background-repeat: no-repeat;
+      background-position: 2% 96%, 80% 96%;
+      background-size: 8em,70%;
+}
+
+/* .backgrounds { */
+/*      -webkit-filter: blur(5px); */
+/*      -moz-filter: blur(50px); */
+/*      -o-filter: blur(5px); */
+/*      -ms-filter: blur(5px); */
+/*      filter: blur(5px); */
+/*  } */
+ .reveal .slide-background.present {
+    opacity: 0.4;
+    }
+

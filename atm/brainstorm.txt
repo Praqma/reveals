@@ -1,0 +1,23 @@
+Primer: what
+Part1: "theory and history"
+Part2: hands on work
+
+Part1:
+Why is it important to have planning
+Background on planning
+
+Almost every project is an elephant
+elephant: https://www.flickr.com/photos/danramarch/4565233602/
+Need to eat it one step at a time
+
+All projects starts with a goal/vision
+
+agile manifesto
+
+
+
+Still think we should use the Praqmatic Workflow here - I realize that we would be showing tools that they arenfamilailr with - but the weight would be on GitHub Issues and Waffle - it woudl be a demonstration, and they could easily do a few exercises!
+
+Part2:
+So how to do it: practical
+
