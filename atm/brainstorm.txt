@@ -34,6 +34,7 @@ New: all the time!
 
 Start by a vission: What is it the end user wants, or imagines?
 Note that the vission can change!
+
 Statement of work
 Briefing: Do you get it? If not, then continue
 
