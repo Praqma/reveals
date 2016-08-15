@@ -32,6 +32,7 @@ End user feedback.
 Old: In the end
 New: all the time!
 
+
 Start by a vission: What is it the end user wants, or imagines?
 Note that the vission can change!
 
@@ -53,19 +54,14 @@ Every single commit is a potential release candidate
 
 Backlog:
 
-
-Somebody needs something done.
-They
+In agile planning a task is expected to have an estimate, a priority, an unambiguous description and a clear definition of done
 
 
+Online flight reservation system
+Goal statement
+I want a website where people can search for and book flights from different airlines in realtime.
+
+Features:
+Search for flights both oneway and twoway 
 
 
-Still think we should use the Praqmatic Workflow here - I realize that we would be showing tools that they arenfamilailr with - but the weight would be on GitHub Issues and Waffle - it woudl be a demonstration, and they could easily do a few exercises!
-
-Part2:
-So how to do it: practical
-Praqmatic workflow
-Github Issues
-
-Estimates
-Prio
