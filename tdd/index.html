@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title></title>
+
+<meta name="description" content="Agile Task Management">
+<meta name="author" content="Sofus Albertsen">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style"
+	content="black-translucent">
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="../reveal.js/css/reveal.css">
+<link rel="stylesheet" href="../reveal.js/css/theme/simple.css"
+	id="theme">
+<link rel="stylesheet" href="../theme/praqma-simple.css" id="theme">
+<link rel="stylesheet" href="css/atm.css">
+
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
+
+<!-- Printing and PDF exports -->
+<script>
+	var link = document.createElement('link');
+	s
+	link.rel = 'stylesheet';
+	link.type = 'text/css';
+	link.href = window.location.search.match(/print-pdf/gi) ? '../reveal.js/css/print/pdf.css'
+			: '../reveal.js/css/print/paper.css';
+	document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<h1>Test Driven Development</h1>
+			</section>
+			<section>
+				<h2>Layout</h2>
+				<p></p>
+				<ul>
+					<li>30 min talk</li>
+					<li>~2 hours workshop</li>
+				</ul>
+			</section>
+			<section>
+				<section>
+					<h1>What is TDD</h1>
+					<img alt="" src="img/TDD1.png">
+				</section>
+				<section>
+					<h1>Why TDD?</h1>
+					<p>Fast feedback loop</p>
+					<p>Simpler code</p>
+					<p>Confidence in the code</p>
+
+					<p>
+						<a
+							href="https://scrumology.com/the-benefits-of-tdd-are-neither-clear-nor-are-they-immediately-apparent/">From
+							scrumology</a>"George and Williams [12] later conducted a formal TDD
+						experiment with professional pair programmers. They reported that
+						the TDD pairs’ product quality was on average 18 percent higher
+						than that of the non-TDD pairs, while their productivity was 14
+						percent lower.”
+					</p>
+				</section>
+				<section>
+					<h1>TDD Flow</h1>
+					<img alt="" src="img/TDD.png">
+				</section>
+				<section>
+					<h1>Know your tools</h1>
+					<img alt="" src="img/toolsskills.png">
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>Practice</h1>
+					<p>When was the last time you wrote some code that wasn’t tied
+						to a deadline?</p>
+				</section>
+				<section>
+					<h1>Deliberate Practice</h1>
+					<p>When was the last time you practiced writing code together,
+						as a team?</p>
+				</section>
+				<section>
+					<h1>Deliberate practice</h1>
+					<ul>
+						<li>Do not practice in your normal development environment</li>
+						<li>Do not practice alone</li>
+						<li>Learn to go slow</li>
+						<li>Do short timed iterations, reflect, and then start again
+							from scratch.</li>
+						<li>Focus on improvement, not on completion, not on
+							perfection.</li>
+					</ul>
+				</section>
+				<section data-background-image="img/dojo.jpg">
+					<h1>Coding Dojo</h1>
+				</section>
+				<section>
+					<h2>Coding Dojo</h2>
+					<ul>
+						<li>Working in pairs</li>
+						<li>TDD (Red, Green, Refactor)</li>
+						<li>Doing something you can’t comfortably do (yet)</li>
+					</ul>
+					<p>
+						Our very own <a href="http://mike.cyber-dojo.org/">cyber-dojo</a>
+					</p>
+					<img src="img/waxon.gif">
+				</section>
+
+			</section>
+
+		</div>
+
+	</div>
+
+	<script src="../reveal.js/lib/js/head.min.js"></script>
+	<script src="../reveal.js/js/reveal.js"></script>
+
+	<script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls : true,
+			progress : true,
+			history : true,
+			center : true,
+
+			transition : 'none', // none/fade/slide/convex/concave/zoom
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies : [ {
+				src : 'lib/js/classList.js',
+				condition : function() {
+					return !document.body.classList;
+				}
+			}, {
+				src : 'plugin/markdown/marked.js',
+				condition : function() {
+					return !!document.querySelector('[data-markdown]');
+				}
+			}, {
+				src : 'plugin/markdown/markdown.js',
+				condition : function() {
+					return !!document.querySelector('[data-markdown]');
+				}
+			}, {
+				src : 'plugin/highlight/highlight.js',
+				async : true,
+				callback : function() {
+					hljs.initHighlightingOnLoad();
+				}
+			}, {
+				src : 'plugin/zoom-js/zoom.js',
+				async : true
+			}, {
+				src : 'plugin/notes/notes.js',
+				async : true
+			} ]
+		});
+	</script>
+
+</body>
+
+</html>
