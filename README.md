@@ -10,8 +10,9 @@
     jekyll serve
 
 Then browse your decks like this:
-http://localhost:4000/template
-http://localhost:4000/tdd
+
+* http://localhost:4000/template
+* http://localhost:4000/tdd
 
 ## npm flavor
 
@@ -23,8 +24,9 @@ http://localhost:4000/tdd
     npm start
 
 Then browse your deck:
-http://localhost:8000/decks/template
-http://localhost:8000/decks/tdd
+
+* http://localhost:8000/decks/template
+* http://localhost:8000/decks/tdd
 
 
 # How to get started

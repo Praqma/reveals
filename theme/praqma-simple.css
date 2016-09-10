@@ -86,6 +86,19 @@ body {
   border: 0;
   box-shadow: none; }
 
+.reveal section img.medium {
+  width: 400px; }
+
+.reveal section img.small {
+  width: 200px; }
+
+.reveal section img.large {
+  width: 600px; }
+
+.reveal section img.max {
+  width: 900px; }
+
+
 .reveal a img {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
