@@ -144,8 +144,5 @@ body {
       background-image: url('../images/logo.png'),url('../images/footer.png');
       background-repeat: no-repeat;
       background-position: 2% 96%, 80% 96%;
-      background-size: 8em,70%;
+      background-size: 8%,70%;
 }
-
-
-
