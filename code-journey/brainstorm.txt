@@ -1,0 +1,8 @@
+Attendees will learn:
+● The release train branching strategy, and how to implement it in jenkins.
+● How to leverage infrastructure as code to develop an automation environment.
+● To set up a multi­application development stack of Jenkins, Artifactory and Docker
+registry defined as code.
+● How to perform automated builds, run regression tests and automatically deploy an
+application in a pipeline defined as code with jenkins JobDSL.
+● How to protect production deployment by automatically rejecting bad code changes.
