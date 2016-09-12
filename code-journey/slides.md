@@ -8,6 +8,15 @@
  * The release train branching strategy
    * Pre-tested integration
 
+>>>>NEWSLIDE
+
+## The hands-on approach
+
+Every step is divided into three sections:
+
+ - Teaching: explain the concepts we will implement
+ - Demo: a quick tour of how to implement
+ - Exercise: your turn to get your hands dirty
 
 
 >>>>NEWSECTION
@@ -88,6 +97,27 @@ Note:
 >>>>NEWSLIDE
 <img src="img/STORYLINE_A1_v2.jpg" alt="Storyline" width=80% />
 
+>>>>NEWSLIDE
+
+![CoDe factory floor](img/golang.png)<!-- .element: class="plain small" -->
+
+### The web service all the world is waiting for!
+https://github.com/praqma-training/gowebserver
+
+>>>>NEWSLIDE
+
+## Demo
+
+
+
+>>>>NEWSLIDE
+
+## Exercise 1!
+
+Follow the Exercise 1 instructions here to create your own fork of gowebserver...
+
+### https://github.com/praqma-training/codeascode
+
 
 >>>>NEWSECTION
 
@@ -105,14 +135,8 @@ Note:
 
 >>>>NEWSLIDE
 
-## But today we choose jenkins!
+## But today we choose jenkins...
 <img src="img/jenkinsbotwithlogo.jpeg" alt="Platforms" width=60% />
-
->>>>NEWSLIDE
-
-## Demo - eyes up!
-
-    # Show the system
 
 >>>>NEWSLIDE
 
@@ -126,7 +150,21 @@ Why? Code has special properties...you can:
 
 >>>>NEWSLIDE
 
+## Demo - eyes up!
+
+    # Show the system
+
+>>>>NEWSLIDE
+
 <img src="img/jenkins.welcome.png" alt="Platforms" width=80% />
+
+>>>>NEWSLIDE
+
+## Exercise 2!
+
+Follow the Exercise 2 instructions here to set up your own automation platform...
+
+### https://github.com/praqma-training/codeascode
 
 
 >>>>NEWSECTION
@@ -210,6 +248,10 @@ Here we want to show:
 
 >>>>NEWSECTION
 
+# Jenkins as code
+
+>>>>NEWSECTION
+
 # Pre-tested Integration
 <img src="img/pretested.integration.png" alt="Platforms" width=80% />
 
@@ -220,21 +262,7 @@ Here we want to show:
 ### 3. Push good change to deliver and see it merge
 ### 4. Push bad change to deliver and see it rejected
 
->>>>NEWSECTION
-
-# CoDe: Testing and evaluating code
-
->>>>NEWSLIDE
-### 1. Set up verification job
-### 2. Set build job to trigger it
-### 3. "Deploy" the artifact
 
 >>>>NEWSECTION
 
-# Everything as code
-
->>>>NEWSLIDE
-
-### 1. Create jobDSL for jobs
-### 2. Create seedjob
-### 3. Remove manually created jobs
+# Everything "as code"
