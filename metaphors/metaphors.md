@@ -13,19 +13,15 @@
 
 ## The Metaphors We Live By
 
-#### As DevOps and Continuous Delivery (CoDe) enthusiast we tend to expand our vocabulary and lingo with metaphors, proverbs and anecdotes that enables us to understand and explain our domain
+#### As DevOps and Continuous Delivery (CoDe) enthusiasts we tend to expand our vocabulary and lingo with metaphors, proverbs and anecdotes that enables us to understand and explain our domain
 
 Buckle up - you're going on a ride with us!
 
 (That's a metaphor!  ...for this presentation being a car, you are the   passengers and we are the reckless drivers, we encourage you to trust us, but for safety measures, we worn you that the road ahead can be rough, so pay attentions and keep you hands inside the vehicle)<!-- .element: style="font-size:small;"-->
 
->>>>NEWSLIDE
-
-## Let us introduce
-
-* Mike (@meekrosoft)
-* Lars (@lakruzz)
-* Praqma (@praqma)
+<div>Mike (@meekrosoft)<br/>
+Lars (@lakruzz)<br/>
+Praqma (@praqma)</div><!-- .element: class="fragment" -->
 
 Note:
 
