@@ -366,22 +366,16 @@ Be a Lannister about it: "A Lannister always pays his debt"
 
 >>>>NEWSECTION
 
-![Knife](res/praqma-knife.jpeg)<!-- .element: class="plain medium"-->
 ![We Don't Chop Wood](res/chopping-wood.jpg)<!-- .element: class="plain medium"-->
-## Proverbs for building identity
+![Knife](res/praqma-knife.jpeg)<!-- .element: class="plain medium"-->
+
+## Sayings
 
 >"We don't chop wood - we sharpen axes"
 
 >"Know your tools - practice your knife skills"
 
 >"We never Loose"
-
->>>>NEWSECTION
-
-
-
-## We Don't Chop Wood
-### We Sharpen Axes
 
 Note:
 
@@ -392,3 +386,16 @@ A pendant or variant  of the bloody - but edifying - tale of the Bonnie situatio
 Meaning the we don't do repetitively manual work with dull tools. We optimize the process through better sharper tools - that will make everyone else go faster.
 
 It's a reminder to us to check if we are doing the right work, i.e the work that can add the most value.  If we are creating repetitive processes and tasks, we sense that we are chopping wood.  If a customer asks us to chop wood, we know that we should take a step back and look for the higher value fix.
+
+
+>>>>NEWSECTION
+
+![vincent and jules](res/jules-vincent.jpg)<!-- .element: class="plain medium" -->
+
+## Wrapping up
+#### Metaphors can:
+
+- Create an identity
+- Guide decision making
+- Provide a shortcut to understanding
+- Form a socal glue
