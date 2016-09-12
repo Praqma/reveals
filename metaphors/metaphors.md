@@ -3,8 +3,8 @@
  To include this markdown in your reveal add the following section:
 
   <section data-markdown="metaphors.md"
-    data-separator="^>>>$"
-    data-separator-vertical="^>>$"
+    data-separator="^>>>>NEWSECTION$"
+    data-separator-vertical="^>>>>NEWSLIDE$"
     data-separator-notes="^Note:$"
     data-charset="iso-8859-15">
   </section>
@@ -19,7 +19,7 @@ Buckle up - you're going on a ride with us!
 
 (That's a metaphor!  ...for this presentation being a car, you are the   passengers and we are the reckless drivers, we encourage you to trust us, but for safety measures, we worn you that the road ahead can be rough, so pay attentions and keep you hands inside the vehicle)<!-- .element: style="font-size:small;"-->
 
->>
+>>>>NEWSLIDE
 
 ## Let us introduce
 
@@ -33,7 +33,7 @@ Working in Praqma, building the business, holding the bar high for employees and
 
 We've come to realize that while doing that, we build and use a whole portfolio of anecdotes, metaphors, stories and proverbs that help us describe what we're doing and even what we are.
 
->>
+>>>>NEWSLIDE
 
 ![ideas are objects](res/ideas-are-objects.jpg)<!-- .element: class="plain  medium" -->
 
@@ -63,7 +63,7 @@ But never the less, the metaphor helped you to understand the conceptual idea be
 
 So let's embrace em': Metaphors, anecdotes and provers are cool - because they work
 
->>
+>>>>NEWSLIDE
 
 ![Logos, Ethos and Pathos](res/logos-ethos-pathos.png)<!-- .element: class="plain" -->
 
@@ -96,7 +96,7 @@ Just to give you an idea of the range of the emotions _Pathos_ covers, here's a 
 
 Metaphors are cool and useful simply because because they trigger imagination and afterthought; they put the receiver's mind at work they arise feelings and emotions in the receiver - which means that he - got the message.
 
->>
+>>>>NEWSLIDE
 
 ![Business Model Canvas](res/business-model-canvas.jpg)<!-- .element: class="plain large" -->
 
@@ -109,7 +109,7 @@ The relation to the BMC is that businesses are complex and we need simple models
 
 We use metaphors and storytelling in order to explain things that are difficult or complex, to build on the CoDe and DevOps identity, to establish common understanding in teams, to build visions, to create bonds - and for laughs.
 
->>>
+>>>>NEWSECTION
 
 ![vincent and jules](res/jules-vincent.jpg)<!-- .element: class="plain medium" -->
 
@@ -139,7 +139,7 @@ Vincent and Jules take the car to the garage of a fiend; Jimmi who lives near by
 
 We now have a delicate Bonnie Situation.
 
->>
+>>>>NEWSLIDE
 ## The Bonnie Situation
 
 <video  class="stretch"src="res/pulp-fiction-jimmi.mp4" data-autoplay></video>
@@ -154,7 +154,7 @@ Vincent at Jules represent the customer in this case. They are the employees who
 
 The hard working employees have to call upon their management, to get allocated - well _the cavalry.
 
->>
+>>>>NEWSLIDE
 
 ## The Bonnie Situation
 
@@ -167,7 +167,7 @@ OK So it turns out we don't need the cavalry - we just need the right guy for th
 
 Who is this wolf?
 
->>
+>>>>NEWSLIDE
 
 ## The Bonnie Situation
 
@@ -183,7 +183,7 @@ Note:
 
 He's obviously fast!
 
->>
+>>>>NEWSLIDE
 
 ## The Bonnie Situation
 
@@ -202,7 +202,7 @@ I recently told this story about Mr. Wolf to a customer to explain how our senio
 
 He was kinda insinuating that that would be to stretch the metaphor too far. But really the answer is "yes!". Mr. Wolfs methods are clearly mostly based on coaching and facilitating:
 
->>
+>>>>NEWSLIDE
 
 ## The Bonnie Situation
 
@@ -230,36 +230,36 @@ We even got our customers to refer to out consultants as Wolves
 
 
 
->>>
+>>>>NEWSECTION
 
 # The CoDe Journey
 
->>
+>>>>NEWSLIDE
 ![CoDe factory floor](res/CoDeJourney/CoDeJourney.000.jpeg)<!-- .element: class="plain max" -->
 
 ### Software as a factory
->>
+>>>>NEWSLIDE
 ![CoDe factory floor](res/CoDeJourney/CoDeJourney.001.jpeg)<!-- .element: class="plain max" -->
 
 ### Am I doing the right thing?
 
->>
+>>>>NEWSLIDE
 
 ![CoDe factory floor](res/CoDeJourney/CoDeJourney.002.jpeg)<!-- .element: class="plain max" -->
 
 ### Am I doing it right?
 
->>
+>>>>NEWSLIDE
 ![CoDe factory floor](res/CoDeJourney/CoDeJourney.003.jpeg)<!-- .element: class="plain max" -->
 
 ### We meet on master
 
->>
+>>>>NEWSLIDE
 ![CoDe factory floor](res/CoDeJourney/CoDeJourney.004.jpeg)<!-- .element: class="plain max" -->
 
 ### Everything as Code
 
->>
+>>>>NEWSLIDE
 ![CoDe factory floor](res/CoDeJourney/CoDeJourney.005.jpeg)<!-- .element: class="plain max" -->
 
 ### What we develop, test, deploy and ship is the same
@@ -274,7 +274,7 @@ Optimizing a software development process is like optimizing a production plant 
 
 I't the same thing.
 
->>
+>>>>NEWSLIDE
 
 ## Anything as Code
 
@@ -299,7 +299,7 @@ That why we want anything and everything as code:
 
 Infrastructure, test, web, graphical deign, documentation.
 
->>
+>>>>NEWSLIDE
 ![Lego](res/lego-component-product.png)<!-- .element: class="plain max" -->
 
 ## Lego
@@ -318,7 +318,7 @@ Each lego block or has is own clear interface, it's own definiton of done and wh
 
 Perfect
 
->>
+>>>>NEWSLIDE
 
 ![Guns, gems and steel](res/guns-germs-steel.jpg)<!-- .element: class="plain large" -->
 
@@ -341,7 +341,7 @@ While at the same time, the stone age population in Indonesia lived of hard to g
 
 We use the analogy to tell why it's important to invest in optimizing surround conditions to the best possible, and not to fear the investment in sharpening the tools, it will pay back in the end.
 
->>
+>>>>NEWSLIDE
 ![The Lannisters](res/the-lannisters.png)<!-- .element: class="plain large"-->
 
 ## Technical Debt
@@ -364,7 +364,7 @@ You can have technical debt in your code, it's not a problem, but you need to ha
 
 Be a Lannister about it: "A Lannister always pays his debt"
 
->>>
+>>>>NEWSECTION
 
 ![Knife](res/praqma-knife.jpeg)<!-- .element: class="plain medium"-->
 ![We Don't Chop Wood](res/chopping-wood.jpg)<!-- .element: class="plain medium"-->
@@ -376,7 +376,7 @@ Be a Lannister about it: "A Lannister always pays his debt"
 
 >"We never Loose"
 
->>>
+>>>>NEWSECTION
 
 
 
