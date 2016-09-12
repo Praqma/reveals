@@ -232,8 +232,37 @@ We even got our customers to refer to out consultants as Wolves
 
 >>>
 
-![CoDe factory floor](res/code-story.bare.png)<!-- .element: class="plain max" -->
+# The CoDe Journey
+
+>>
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.000.jpeg)<!-- .element: class="plain max" -->
+
 ### Software as a factory
+>>
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.001.jpeg)<!-- .element: class="plain max" -->
+
+### Am I doing the right thing?
+
+>>
+
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.002.jpeg)<!-- .element: class="plain max" -->
+
+### Am I doing it right?
+
+>>
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.003.jpeg)<!-- .element: class="plain max" -->
+
+### We meet on master
+
+>>
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.004.jpeg)<!-- .element: class="plain max" -->
+
+### Everything as Code
+
+>>
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.005.jpeg)<!-- .element: class="plain max" -->
+
+### What we develop, test, deploy and ship is the same
 
 Note:
 
