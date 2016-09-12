@@ -88,20 +88,20 @@ Well hurray for modern research. Aristoteles new this well before inbound market
 
 Just to give you an idea of the range of the emotions _Pathos_ covers, here's a little fun-fact:
 
-> The word _EMPATHY_ derives from Aristoetle's _PATHOS_ and so does the word _PATHETIC_
+> The word _EMPATHY_ derives from Aristotle's _PATHOS_ and so does the word _PATHETIC_
 
 Metaphors are cool and useful simply because because they trigger imagination and afterthought; they put the receiver's mind at work they arise feelings and emotions in the receiver - which means that he - got the message.
 
 >>>>NEWSLIDE
 
-![Business Model Canvas](res/business-model-canvas.jpg)<!-- .element: class="plain large" -->
+![The book](res/metaphors-we-live-by.jpg)<!-- .element: class="plain small" -->
 
 ## How we use the metaphors
 
 
 Note:
 
-The relation to the BMC is that businesses are complex and we need simple models to explain them. We need to distill things such as behaviors and values to a message that can form a common understanding.
+Inspiration comes from Lakoff and Johnsson's "Metaphors We Live By". They make us realize that metophors are everywhere in our everyday language, but more important, they explain why we use then - what purpose they have.
 
 We use metaphors and storytelling in order to explain things that are difficult or complex, to build on the CoDe and DevOps identity, to establish common understanding in teams, to build visions, to create bonds - and for laughs.
 
