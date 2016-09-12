@@ -109,8 +109,9 @@ We use metaphors and storytelling in order to explain things that are difficult 
 
 ![vincent and jules](res/jules-vincent.jpg)<!-- .element: class="plain medium" -->
 
-## Personas
-#### well; acually _real life fictional characters_
+## The Bonnie Situation
+
+#### Personas ...well; acually _real life fictional characters_
 
 - Mr. Wolf
 - Marcellus Wallace
@@ -165,6 +166,7 @@ Who is this wolf?
 
 >>>>NEWSLIDE
 
+<!-- .slide: data-transition="slide-in fade-out" -->
 ## The Bonnie Situation
 
 <div class="stretch" style="position: absolute; clip: rect(65px,1000px,451px,0px);">
@@ -180,6 +182,8 @@ Note:
 He's obviously fast!
 
 >>>>NEWSLIDE
+
+<!-- .slide: data-transition="fade-in slide-out" -->
 
 ## The Bonnie Situation
 
@@ -231,34 +235,12 @@ We even got our customers to refer to out consultants as Wolves
 # The CoDe Journey
 
 >>>>NEWSLIDE
+
+<!-- .slide: data-transition="slide-in fade-out" -->
+
 ![CoDe factory floor](res/CoDeJourney/CoDeJourney.000.jpeg)<!-- .element: class="plain max" -->
 
 ### Software as a factory
->>>>NEWSLIDE
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.001.jpeg)<!-- .element: class="plain max" -->
-
-### Am I doing the right thing?
-
->>>>NEWSLIDE
-
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.002.jpeg)<!-- .element: class="plain max" -->
-
-### Am I doing it right?
-
->>>>NEWSLIDE
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.003.jpeg)<!-- .element: class="plain max" -->
-
-### We meet on master
-
->>>>NEWSLIDE
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.004.jpeg)<!-- .element: class="plain max" -->
-
-### Everything as Code
-
->>>>NEWSLIDE
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.005.jpeg)<!-- .element: class="plain max" -->
-
-### What we develop, test, deploy and ship is the same
 
 Note:
 
@@ -272,9 +254,47 @@ I't the same thing.
 
 >>>>NEWSLIDE
 
-## Anything as Code
+<!-- .slide: data-transition="fade-in fade-out" -->
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.001.jpeg)<!-- .element: class="plain max" -->
+
+### Am I doing the right thing?
+
+>>>>NEWSLIDE
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.002.jpeg)<!-- .element: class="plain max" -->
+
+### Am I doing it right?
+
+>>>>NEWSLIDE
+<!-- .slide: data-transition="fade-in fade-out" -->
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.003.jpeg)<!-- .element: class="plain max" -->
+
+### We meet on master
+
+>>>>NEWSLIDE
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.004.jpeg)<!-- .element: class="plain max" -->
+
+### Automate everything
+
+>>>>NEWSLIDE
+
+<!-- .slide: data-transition="fade-in slide-out" -->
+
+![CoDe factory floor](res/CoDeJourney/CoDeJourney.005.jpeg)<!-- .element: class="plain max" -->
+
+### What we develop, test, deploy and ship is the same
+
+
+>>>>NEWSLIDE
+
+## Everything "as Code"
 
 Infrastructure, test, software verification, web, graphical design, documentation, slide decks
+
+_...lunch, marketing, conferences_<!-- .element: class="fragment" -->
 
 Note:
 
@@ -335,12 +355,14 @@ While at the same time, the stone age population in Indonesia lived of hard to g
 
 ---
 
-We use the analogy to tell why it's important to invest in optimizing surround conditions to the best possible, and not to fear the investment in sharpening the tools, it will pay back in the end.
+We use the analogy to tell why it's important to invest in optimizing surrounding conditions to the best possible, and not to fear the investment in sharpening the tools, it will pay back in the end.
 
 >>>>NEWSLIDE
-![The Lannisters](res/the-lannisters.png)<!-- .element: class="plain large"-->
+
+![The Lannisters](res/the-lannisters.png)
 
 ## Technical Debt
+#### ...as in real DEBT!
 
 >"A Lannister always pay his debts"
 
@@ -348,7 +370,11 @@ Note:
 
 We talk about technical debt, we recon that probably most of you do. But that is also a metaphor. But try to stop and dwell with of it for a while.
 
+Did you even think of it as a metaphor? or has it become so much part of your daily lingo that you just use it as a - well technical phrase.
+
 It is actually a not just something that we've accidentally added to our lingo. it's indeed a _brilliant_ metaphor.
+
+Let's add some PATHOS to the - original metaphor DEBT!
 
 The sloppiness, brute force, unconsidered solutions that we some times throw into our code are not all bad - it's just debt.
 
@@ -362,8 +388,8 @@ Be a Lannister about it: "A Lannister always pays his debt"
 
 >>>>NEWSECTION
 
-![We Don't Chop Wood](res/chopping-wood.jpg)<!-- .element: class="plain medium"-->
-![Knife](res/praqma-knife.jpeg)<!-- .element: class="plain medium"-->
+![We Don't Chop Wood](res/chopping-wood.jpg)<!-- .element: class="plain small"-->
+![Knife](res/praqma-knife.jpeg)<!-- .element: class="plain small"-->
 
 ## Sayings
 
@@ -386,12 +412,24 @@ It's a reminder to us to check if we are doing the right work, i.e the work that
 
 >>>>NEWSECTION
 
+<!-- .slide: data-transition="slide-in fade-out" -->
+
 ![vincent and jules](res/jules-vincent.jpg)<!-- .element: class="plain medium" -->
 
 ## Wrapping up
-#### Metaphors can:
+#### Metaphors have PATHOS, they can:
 
 - Create an identity
 - Guide decision making
 - Provide a shortcut to understanding
 - Form a socal glue
+
+>>>>NEWSLIDE
+
+<!-- .slide: data-transition="fade-in" -->
+
+## Thank you
+
+<video  src="res/pulp-fiction-its-been-a-pleasure.mp4" data-autoplay></video>
+
+#### ...it's been a pleasure
