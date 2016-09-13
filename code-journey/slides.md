@@ -99,7 +99,7 @@ Note:
 
 >>>>NEWSLIDE
 
-![CoDe factory floor](img/golang.png)<!-- .element: class="plain small" -->
+![Roman gopher](img/golang.png)<!-- .element: class="plain small" -->
 
 ### The web service all the world is waiting for!
 https://github.com/praqma-training/gowebserver
@@ -140,13 +140,35 @@ Follow the Exercise 1 instructions here to create your own fork of gowebserver..
 
 >>>>NEWSLIDE
 
-Why? Code has special properties...you can:
+## Why Programmable Infrastructure?
 
- * Version it
- * Branch it
- * Run it
- * Duplicate it
- * Review it
+- It's strict
+- It's syntax can be checked
+- It can be persisted in files, and version controlled
+- It can be executed
+- ...over and over again, to produce the exact same result
+- It can be copied and shared
+- Configuration can easily be separated for the internal logic
+- It can be broken down to smaller components
+- ...each with a clear definition of done
+- It can be automatically verified in a pipeline
+
+
+>>>>NEWSLIDE
+
+## Everything "as Code"
+
+Infrastructure, test, software verification, web, graphical design, documentation, slide decks
+
+_...lunch, marketing, conferences_<!-- .element: class="fragment" -->
+
+Note:
+
+Codes has some desirable characteristics that makes it desirable for use for things that behave like code.
+
+That why we want anything and everything as code:
+
+Infrastructure, test, web, graphical deign, documentation.
 
 >>>>NEWSLIDE
 
@@ -173,8 +195,9 @@ Follow the Exercise 2 instructions here to set up your own automation platform..
 ## Our first pipeline...
 
 >>>>NEWSLIDE
-## Let's "build" adventure time!
+## Let's have an adventure!
 <img src="img/Original_Finn.png" alt="Platforms" width=20% />
+![Roman gopher](img/golang.png)<!-- .element: class="plain small" -->
 
 >>>>NEWSLIDE
 
@@ -185,20 +208,29 @@ Follow the Exercise 2 instructions here to set up your own automation platform..
 * Run tests
 
 >>>>NEWSLIDE
+
+# Demo
+
+>>>>NEWSLIDE
 ## A Job is an atomic unit of automation work
-<img src="img/jenkins.at.newjob.png" alt="Platforms" width=80% />
+<img src="img/go-roman.freestyle.png" alt="Platforms" width=100% />
 
 >>>>NEWSLIDE
 
-<img src="img/jenkins.at.build.png" alt="Platforms" width=80% />
+<img src="img/go-roman.description.png" alt="Platforms" width=80% />
 
 >>>>NEWSLIDE
 
-<img src="img/jenkins.at.vcs.png" alt="Platforms" width=80% />
+<img src="img/go-roman.params.png" alt="Platforms" width=80% />
 
 >>>>NEWSLIDE
 
-<img src="img/jenkins.at.project.png" alt="Platforms" width=80% />
+<img src="img/go-roman.scm.png" alt="Platforms" width=80% />
+
+>>>>NEWSLIDE
+
+<img src="img/go-roman.run.build.png" alt="Platforms" width=80% />
+
 
 Note:
 Here we want to show:
@@ -208,49 +240,128 @@ Here we want to show:
 
 >>>>NEWSLIDE
 
-<img src="img/jenkins.at.console.png" alt="Platforms" width=80% />
+<img src="img/go-roman.run.console.png" alt="Platforms" width=100% />
 
 >>>>NEWSLIDE
 # Ok, let's actually do a test
 
 >>>>NEWSLIDE
 
-<img src="img/jenkins.at.buildstep.png" alt="Platforms" width=80% />
-<img src="img/jenkins.at.console.pass.png" alt="Platforms" width=80% />
+<img src="img/go-roman.buildscript.png" alt="Platforms" width=70% />
+<img src="img/go-roman.build.success.png" alt="Platforms" width=70% />
 
 >>>>NEWSLIDE
 # But can it fail?
-## Now is the time to create your own fork...
+
+## Make it go red...
+## Make it go blue...
 
 >>>>NEWSLIDE
 
-<img src="img/at.fork.png" alt="Platforms" width=80% />
-<img src="img/at.forked.png" alt="Platforms" width=80% />
+<img src="img/go-roman.build.history.png" alt="Platforms" width=50% />
 
 >>>>NEWSLIDE
 
-<img src="img/at.edit.fail.png" alt="Platforms" width=80% />
+# Exercise 3.1
+
+### Follow the instructions for exercise 3.1
 
 >>>>NEWSLIDE
 
-## Remember to update the job urls!
-<img src="img/jenkins.at.update.url.png" alt="Platforms" width=80% />
+## Extending the pipeline with tests
+
+![Test job](img/go-roman.test.job.png)<!-- .element: class="plain large" -->
 
 >>>>NEWSLIDE
 
-<img src="img/jenkins.at.build.fail.png" alt="Platforms" width=40% />
-<img src="img/jenkins.at.build.fail.console.png" alt="Platforms" width=80% />
+## Great artists steal
+
+![Test job](img/go-roman.test.copy.png)<!-- .element: class="plain max" -->
 
 >>>>NEWSLIDE
 
-## Task 1: make the build pass again
-## Task 2: make the build run automatically
+![Test job](img/go-roman.test.params.png)<!-- .element: class="plain large" -->
+
+>>>>NEWSLIDE
+
+![Test job](img/go-roman.trigger.tests.png)<!-- .element: class="plain medium" -->
+
+>>>>NEWSLIDE
+
+![Test job](img/go-roman.trigger.params.png)<!-- .element: class="plain max" -->
+
+>>>>NEWSLIDE
+
+### Tadaaa!!
+![Test job](img/go-roman.manual.pipeline.png)<!-- .element: class="plain max" -->
+
+>>>>NEWSLIDE
+
+# Exercise 3.2
+
+### Follow the instructions for exercise 3.2
 
 >>>>NEWSECTION
 
 # Jenkins as code
+### No more pointy-pointy, clicky-clicky!
+
+![Test job](img/no-pointy.png)<!-- .element: class="plain small" -->
+>>>>NEWSLIDE
+
+## Jenkins JobDSL
+
+- Plugin to allow jobs-as-code
+- Hack-turned-tool, from the folks at Netflix
+- Greatly simplifies the maintanence of large jenkins deployments
+- Puts the power in the hands of the team
+
+>>>>NEWSLIDE
+
+## A simple job definition
+
+````
+def project = 'quidryan/aws-sdk-test'
+def branchApi = new URL("https://api.github.com/repos/${project}/branches")
+def branches = new groovy.json.JsonSlurper().parse(branchApi.newReader())
+branches.each {
+    def branchName = it.name
+    def jobName = "${project}-${branchName}".replaceAll('/','-')
+    job(jobName) {
+        scm {
+            git("git://github.com/${project}.git", branchName)
+        }
+        steps {
+            maven("test -Dproject.name=${project}/${branchName}")
+        }
+    }
+}
+````
+>>>>NEWSLIDE
+
+## Key points:
+
+ - Groovy-based
+ - Use a "seed job" to run the jobDSL's
+ - Can be versioned together with the code
+ - There is a great [wiki](https://github.com/jenkinsci/job-dsl-plugin/wiki) and [API Viewer](https://jenkinsci.github.io/job-dsl-plugin/)
+
+ ```
+
+>>>>NEWSLIDE
+
+## Demo - go-roman jobDSL
+
+>>>>NEWSLIDE
+
+## Exercise 4!
+### [Instructions](https://github.com/praqma-training/codeascode/blob/master/journey-exercises/Exercise4.md)
 
 >>>>NEWSECTION
+
+# The release train branching strategy
+
+>>>>NEWSLIDE
 
 # Pre-tested Integration
 <img src="img/pretested.integration.png" alt="Platforms" width=80% />
@@ -266,3 +377,7 @@ Here we want to show:
 >>>>NEWSECTION
 
 # Everything "as code"
+
+Infrastructure, test, software verification, web, graphical design, documentation, slide decks
+
+_...lunch, marketing, conferences_<!-- .element: class="fragment" -->
