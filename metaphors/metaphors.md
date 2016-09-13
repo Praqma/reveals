@@ -248,9 +248,8 @@ Back to our own world of coding.
 
 We're using a term "Software as a Factory" to create the understanding that software, like the assembly belt on a factory floor, is dependent on a series of related processes, that needs to be carefully designed to each one of them deliver their tiny contribution to the overall product, and each station must do that "at the beat of the drum".
 
-Optimizing a software development process is like optimizing a production plant factory floor that is why LEAN, TPS, Six Sigma, TQM, Production lines are the fathers of the Agile thinking
+Optimizing a software development process is like optimizing a production plant factory floor that is why LEAN, TPS, Six Sigma, TQM, Production lines are the fathers of the Agile thinking.  We look at our customers software organizations through this lens, looking for queues, wait states, rework and of course automation opportunities.
 
-I't the same thing.
 
 >>>>NEWSLIDE
 
@@ -259,6 +258,10 @@ I't the same thing.
 
 ### Am I doing the right thing?
 
+Note:
+
+So as we investigate the factory, we begin by asking how people choose what to work on.
+
 >>>>NEWSLIDE
 
 <!-- .slide: data-transition="fade-in fade-out" -->
@@ -266,11 +269,19 @@ I't the same thing.
 
 ### Am I doing it right?
 
+Note:
+
+Then we go on to look at how each team member can qualify their work.
+
 >>>>NEWSLIDE
 <!-- .slide: data-transition="fade-in fade-out" -->
 ![CoDe factory floor](res/CoDeJourney/CoDeJourney.003.jpeg)<!-- .element: class="plain max" -->
 
 ### We meet on master
+
+Note:
+
+The next stage is to look at collaboration and integration practices.  Here we have yet another metaphor, the release-train branching strategy.
 
 >>>>NEWSLIDE
 
@@ -278,6 +289,10 @@ I't the same thing.
 ![CoDe factory floor](res/CoDeJourney/CoDeJourney.004.jpeg)<!-- .element: class="plain max" -->
 
 ### Automate everything
+
+Note:
+
+Then we begin to look at the manual processes and gatepoints in the factory, and seek opportunities for automation.
 
 >>>>NEWSLIDE
 
@@ -287,6 +302,9 @@ I't the same thing.
 
 ### What we develop, test, deploy and ship is the same
 
+Note:
+
+Finally, we look for opportunities to create consistency and reliability in the factory.
 
 >>>>NEWSLIDE
 
