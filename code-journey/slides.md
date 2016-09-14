@@ -264,7 +264,7 @@ Here we want to show:
 
 # Exercise 3.1
 
-### Follow the instructions for exercise 3.1
+### [Follow the instructions for exercise 3.1](https://github.com/praqma-training/codeascode/blob/master/journey-exercises/Exercise3.md#31-configure-a-simple-build-job)
 
 >>>>NEWSLIDE
 
@@ -299,7 +299,7 @@ Here we want to show:
 
 # Exercise 3.2
 
-### Follow the instructions for exercise 3.2
+### [Follow the instructions for exercise 3.2](https://github.com/praqma-training/codeascode/blob/master/journey-exercises/Exercise3.md#32-set-up-a-test-job)
 
 >>>>NEWSECTION
 
@@ -313,7 +313,7 @@ Here we want to show:
 
 - Plugin to allow jobs-as-code
 - Hack-turned-tool, from the folks at Netflix
-- Greatly simplifies the maintanence of large jenkins deployments
+- Greatly simplifies the maintenance of large Jenkins deployments
 - Puts the power in the hands of the team
 
 >>>>NEWSLIDE
@@ -346,7 +346,6 @@ branches.each {
  - Can be versioned together with the code
  - There is a great [wiki](https://github.com/jenkinsci/job-dsl-plugin/wiki) and [API Viewer](https://jenkinsci.github.io/job-dsl-plugin/)
 
- ```
 
 >>>>NEWSLIDE
 
@@ -355,7 +354,7 @@ branches.each {
 >>>>NEWSLIDE
 
 ## Exercise 4!
-### [Instructions](https://github.com/praqma-training/codeascode/blob/master/journey-exercises/Exercise4.md)
+### [Jenkins jobs as code](https://github.com/praqma-training/codeascode/blob/master/journey-exercises/Exercise4.md)
 
 >>>>NEWSECTION
 
@@ -368,10 +367,8 @@ branches.each {
 
 >>>>NEWSLIDE
 
-### 1. Install plugin
-### 2. Configure pre-tested integration
-### 3. Push good change to deliver and see it merge
-### 4. Push bad change to deliver and see it rejected
+## Exercise 5!
+### [Set up pre-tested integration for deliver branches](https://github.com/praqma-training/codeascode/blob/master/journey-exercises/Exercise5.md)
 
 
 >>>>NEWSECTION
@@ -381,3 +378,8 @@ branches.each {
 Infrastructure, test, software verification, web, graphical design, documentation, slide decks
 
 _...lunch, marketing, conferences_<!-- .element: class="fragment" -->
+
+>>>>NEWSLIDE
+
+## Exercise 6
+### [Extra credit!](https://github.com/praqma-training/codeascode/blob/master/journey-exercises/Exercise6.md)
