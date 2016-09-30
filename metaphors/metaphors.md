@@ -415,7 +415,7 @@ Be a Lannister about it: "A Lannister always pays his debt"
 
 >"Know your tools - practice your knife skills"
 
->"We never Loose"
+>"We never lose"
 
 Note:
 
