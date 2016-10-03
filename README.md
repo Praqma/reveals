@@ -14,20 +14,6 @@ Then browse your decks like this:
 * http://localhost:4000/template
 * http://localhost:4000/tdd
 
-## npm flavor
-
-    git clone git@github.com:Praqma/reveals.git
-    git submodule init
-    git submodule update
-    cd reveals/reveal.js
-    ln -s .. decks
-    npm start
-
-Then browse your deck:
-
-* http://localhost:8000/decks/template
-* http://localhost:8000/decks/tdd
-
 
 # How to get started
 
