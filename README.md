@@ -4,9 +4,9 @@
 ## Jekyll flavor
 
     git clone git@github.com:Praqma/reveals.git
+    cd reveals
     git submodule init
     git submodule update
-    cd reveals
     jekyll serve
 
 Then browse your decks like this:
