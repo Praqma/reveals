@@ -23,6 +23,6 @@ Praqma (@praqma)</div>
 
 >>>>NEWSLIDE
 
-## The Continuos Delivery Story-line
+## The Continuous Delivery Story-line
 
 ![The CoDe Story line](../shared/img/code-story.bare.png)<!-- .element: class="plain max" -->
