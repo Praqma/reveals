@@ -1,27 +1,12 @@
-## The journey
-
- * Continuous Delivery in a nutshell
- * Infrastructure as code
-   * Set up a multi-application development stack (Jenkins, Artifactory and Docker)
- * Set up a full build pipeline (as code)
-   * Perform automated builds, run regression tests and automatically deploy
- * The release train branching strategy
-   * Pre-tested integration
+## Automated git flow
+- problem: my master broke, so i need to wait for the guy to fix it.
+- Solution: gated master
 
 >>>>NEWSLIDE
-
-## The hands-on approach
-
-Every step is divided into three sections:
-
- - Teaching: explain the concepts we will implement
- - Demo: a quick tour of how to implement
- - Exercise: your turn to get your hands dirty
-
+## Jenkins automated plugin
+ - pretested integration plugin
 
 >>>>NEWSECTION
-# Continuous Delivery in a nutshell
+##pretested integration setup
 
->>>>NEWSLIDE
 
-### *"Our highest priority is to satisfy the customer through early and continuous delivery of valuable software."*
