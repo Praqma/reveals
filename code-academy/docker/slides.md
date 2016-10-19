@@ -1,27 +1,25 @@
-## The journey
-
- * Continuous Delivery in a nutshell
- * Infrastructure as code
-   * Set up a multi-application development stack (Jenkins, Artifactory and Docker)
- * Set up a full build pipeline (as code)
-   * Perform automated builds, run regression tests and automatically deploy
- * The release train branching strategy
-   * Pre-tested integration
-
+# Story so far
 >>>>NEWSLIDE
+## My code needs to run in different environments
+## My toolstack is hard to setup
+## My servers crashed
+## My Env environment does not match your env
 
-## The hands-on approach
+>>>>New section
+# Motivation
+## Virtualization
+## Containers
+# Dockerfiles
+## Imagelayers
 
-Every step is divided into three sections:
+# Running Docker
+- run
+- build
+- exec
+- start
+- stop
+- ps
+# Volumes
 
- - Teaching: explain the concepts we will implement
- - Demo: a quick tour of how to implement
- - Exercise: your turn to get your hands dirty
+# Multi container applications
 
-
->>>>NEWSECTION
-# Continuous Delivery in a nutshell
-
->>>>NEWSLIDE
-
-### *"Our highest priority is to satisfy the customer through early and continuous delivery of valuable software."*
