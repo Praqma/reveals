@@ -1,27 +1,34 @@
-## The journey
-
- * Continuous Delivery in a nutshell
- * Infrastructure as code
-   * Set up a multi-application development stack (Jenkins, Artifactory and Docker)
- * Set up a full build pipeline (as code)
-   * Perform automated builds, run regression tests and automatically deploy
- * The release train branching strategy
-   * Pre-tested integration
+## Build Automation
+- I hankte manual work
+- Repetetive errornous tasks
 
 >>>>NEWSLIDE
+##Solution
+- Use build automation
+- CD Storyline
 
-## The hands-on approach
-
-Every step is divided into three sections:
-
- - Teaching: explain the concepts we will implement
- - Demo: a quick tour of how to implement
- - Exercise: your turn to get your hands dirty
-
+>>>>NEWSLIDE
+Jenkins and the rest of the gang (Travis,Circle etc)
 
 >>>>NEWSECTION
-# Continuous Delivery in a nutshell
+##Linux bash
+>>>>NEWSLIDE
+- SSH
+- apt-get
+- nano
 
 >>>>NEWSLIDE
+Cloud VM
 
-### *"Our highest priority is to satisfy the customer through early and continuous delivery of valuable software."*
+>>>>NEWSECTION
+Install jenkins in the cloud
+
+>>>>NEWSLIDE
+##Jenkins
+- Jobs
+- Nodes
+- shell
+- git 
+- plugin
+- gui
+
