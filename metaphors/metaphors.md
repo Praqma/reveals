@@ -238,7 +238,7 @@ We even got our customers to refer to out consultants as Wolves
 
 <!-- .slide: data-transition="slide-in fade-out" -->
 
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.000.jpeg)<!-- .element: class="plain max" -->
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.000.jpeg)<!-- .element: class="plain max" -->
 
 ### Software as a factory
 
@@ -254,7 +254,7 @@ Optimizing a software development process is like optimizing a production plant 
 >>>>NEWSLIDE
 
 <!-- .slide: data-transition="fade-in fade-out" -->
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.001.jpeg)<!-- .element: class="plain max" -->
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.001.jpeg)<!-- .element: class="plain max" -->
 
 ### Am I doing the right thing?
 
@@ -265,7 +265,7 @@ So as we investigate the factory, we begin by asking how people choose what to w
 >>>>NEWSLIDE
 
 <!-- .slide: data-transition="fade-in fade-out" -->
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.002.jpeg)<!-- .element: class="plain max" -->
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.002.jpeg)<!-- .element: class="plain max" -->
 
 ### Am I doing it right?
 
@@ -275,7 +275,7 @@ Then we go on to look at how each team member can qualify their work.
 
 >>>>NEWSLIDE
 <!-- .slide: data-transition="fade-in fade-out" -->
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.003.jpeg)<!-- .element: class="plain max" -->
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.003.jpeg)<!-- .element: class="plain max" -->
 
 ### We meet on master
 
@@ -286,7 +286,7 @@ The next stage is to look at collaboration and integration practices.  Here we h
 >>>>NEWSLIDE
 
 <!-- .slide: data-transition="fade-in fade-out" -->
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.004.jpeg)<!-- .element: class="plain max" -->
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.004.jpeg)<!-- .element: class="plain max" -->
 
 ### Automate everything
 
@@ -298,7 +298,7 @@ Then we begin to look at the manual processes and gatepoints in the factory, and
 
 <!-- .slide: data-transition="fade-in slide-out" -->
 
-![CoDe factory floor](res/CoDeJourney/CoDeJourney.005.jpeg)<!-- .element: class="plain max" -->
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.005.jpeg)<!-- .element: class="plain max" -->
 
 ### What we develop, test, deploy and ship is the same
 
@@ -334,7 +334,7 @@ That why we want anything and everything as code:
 Infrastructure, test, web, graphical deign, documentation.
 
 >>>>NEWSLIDE
-![Lego](res/lego-component-product.png)<!-- .element: class="plain max" -->
+![Lego](../shared/img/lego-component-product.png)<!-- .element: class="plain max" -->
 
 ## Lego
 
