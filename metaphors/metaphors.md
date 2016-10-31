@@ -3,8 +3,8 @@
  To include this markdown in your reveal add the following section:
 
   <section data-markdown="metaphors.md"
-    data-separator="^>>>$"
-    data-separator-vertical="^>>$"
+    data-separator="^>>>>NEWSECTION$"
+    data-separator-vertical="^>>>>NEWSLIDE$"
     data-separator-notes="^Note:$"
     data-charset="iso-8859-15">
   </section>
@@ -13,19 +13,15 @@
 
 ## The Metaphors We Live By
 
-#### As DevOps and Continuous Delivery (CoDe) enthusiast we tend to expand our vocabulary and lingo with metaphors, proverbs and anecdotes that enables us to understand and explain our domain
+#### As DevOps and Continuous Delivery (CoDe) enthusiasts we tend to expand our vocabulary and lingo with metaphors, proverbs and anecdotes that enables us to understand and explain our domain
 
 Buckle up - you're going on a ride with us!
 
 (That's a metaphor!  ...for this presentation being a car, you are the   passengers and we are the reckless drivers, we encourage you to trust us, but for safety measures, we worn you that the road ahead can be rough, so pay attentions and keep you hands inside the vehicle)<!-- .element: style="font-size:small;"-->
 
->>
-
-## Let us introduce
-
-* Mike (@meekrosoft)
-* Lars (@lakruzz)
-* Praqma (@praqma)
+<div>Mike (@meekrosoft)<br/>
+Lars (@lakruzz)<br/>
+Praqma (@praqma)</div><!-- .element: class="fragment" -->
 
 Note:
 
@@ -33,7 +29,7 @@ Working in Praqma, building the business, holding the bar high for employees and
 
 We've come to realize that while doing that, we build and use a whole portfolio of anecdotes, metaphors, stories and proverbs that help us describe what we're doing and even what we are.
 
->>
+>>>>NEWSLIDE
 
 ![ideas are objects](res/ideas-are-objects.jpg)<!-- .element: class="plain  medium" -->
 
@@ -63,7 +59,7 @@ But never the less, the metaphor helped you to understand the conceptual idea be
 
 So let's embrace em': Metaphors, anecdotes and provers are cool - because they work
 
->>
+>>>>NEWSLIDE
 
 ![Logos, Ethos and Pathos](res/logos-ethos-pathos.png)<!-- .element: class="plain" -->
 
@@ -92,29 +88,30 @@ Well hurray for modern research. Aristoteles new this well before inbound market
 
 Just to give you an idea of the range of the emotions _Pathos_ covers, here's a little fun-fact:
 
-> The word _EMPATHY_ derives from Aristoetle's _PATHOS_ and so does the word _PATHETIC_
+> The word _EMPATHY_ derives from Aristotle's _PATHOS_ and so does the word _PATHETIC_
 
 Metaphors are cool and useful simply because because they trigger imagination and afterthought; they put the receiver's mind at work they arise feelings and emotions in the receiver - which means that he - got the message.
 
->>
+>>>>NEWSLIDE
 
-![Business Model Canvas](res/business-model-canvas.jpg)<!-- .element: class="plain large" -->
+![The book](res/metaphors-we-live-by.jpg)<!-- .element: class="plain small" -->
 
 ## How we use the metaphors
 
 
 Note:
 
-The relation to the BMC is that businesses are complex and we need simple models to explain them. We need to distill things such as behaviors and values to a message that can form a common understanding.
+Inspiration comes from Lakoff and Johnsson's "Metaphors We Live By". They make us realize that metophors are everywhere in our everyday language, but more important, they explain why we use then - what purpose they have.
 
 We use metaphors and storytelling in order to explain things that are difficult or complex, to build on the CoDe and DevOps identity, to establish common understanding in teams, to build visions, to create bonds - and for laughs.
 
->>>
+>>>>NEWSECTION
 
 ![vincent and jules](res/jules-vincent.jpg)<!-- .element: class="plain medium" -->
 
-## Personas
-#### well; acually _real life fictional characters_
+## The Bonnie Situation
+
+#### Personas ...well; acually _real life fictional characters_
 
 - Mr. Wolf
 - Marcellus Wallace
@@ -139,7 +136,7 @@ Vincent and Jules take the car to the garage of a fiend; Jimmi who lives near by
 
 We now have a delicate Bonnie Situation.
 
->>
+>>>>NEWSLIDE
 ## The Bonnie Situation
 
 <video  class="stretch"src="res/pulp-fiction-jimmi.mp4" data-autoplay></video>
@@ -154,7 +151,7 @@ Vincent at Jules represent the customer in this case. They are the employees who
 
 The hard working employees have to call upon their management, to get allocated - well _the cavalry.
 
->>
+>>>>NEWSLIDE
 
 ## The Bonnie Situation
 
@@ -167,8 +164,9 @@ OK So it turns out we don't need the cavalry - we just need the right guy for th
 
 Who is this wolf?
 
->>
+>>>>NEWSLIDE
 
+<!-- .slide: data-transition="slide-in fade-out" -->
 ## The Bonnie Situation
 
 <div class="stretch" style="position: absolute; clip: rect(65px,1000px,451px,0px);">
@@ -183,7 +181,9 @@ Note:
 
 He's obviously fast!
 
->>
+>>>>NEWSLIDE
+
+<!-- .slide: data-transition="fade-in slide-out" -->
 
 ## The Bonnie Situation
 
@@ -202,7 +202,7 @@ I recently told this story about Mr. Wolf to a customer to explain how our senio
 
 He was kinda insinuating that that would be to stretch the metaphor too far. But really the answer is "yes!". Mr. Wolfs methods are clearly mostly based on coaching and facilitating:
 
->>
+>>>>NEWSLIDE
 
 ## The Bonnie Situation
 
@@ -230,9 +230,16 @@ We even got our customers to refer to out consultants as Wolves
 
 
 
->>>
+>>>>NEWSECTION
 
-![CoDe factory floor](res/code-story.bare.png)<!-- .element: class="plain max" -->
+# The CoDe Journey
+
+>>>>NEWSLIDE
+
+<!-- .slide: data-transition="slide-in fade-out" -->
+
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.000.jpeg)<!-- .element: class="plain max" -->
+
 ### Software as a factory
 
 Note:
@@ -241,15 +248,71 @@ Back to our own world of coding.
 
 We're using a term "Software as a Factory" to create the understanding that software, like the assembly belt on a factory floor, is dependent on a series of related processes, that needs to be carefully designed to each one of them deliver their tiny contribution to the overall product, and each station must do that "at the beat of the drum".
 
-Optimizing a software development process is like optimizing a production plant factory floor that is why LEAN, TPS, Six Sigma, TQM, Production lines are the fathers of the Agile thinking
+Optimizing a software development process is like optimizing a production plant factory floor that is why LEAN, TPS, Six Sigma, TQM, Production lines are the fathers of the Agile thinking.  We look at our customers software organizations through this lens, looking for queues, wait states, rework and of course automation opportunities.
 
-I't the same thing.
 
->>
+>>>>NEWSLIDE
 
-## Anything as Code
+<!-- .slide: data-transition="fade-in fade-out" -->
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.001.jpeg)<!-- .element: class="plain max" -->
+
+### Am I doing the right thing?
+
+Note:
+
+So as we investigate the factory, we begin by asking how people choose what to work on.
+
+>>>>NEWSLIDE
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.002.jpeg)<!-- .element: class="plain max" -->
+
+### Am I doing it right?
+
+Note:
+
+Then we go on to look at how each team member can qualify their work.
+
+>>>>NEWSLIDE
+<!-- .slide: data-transition="fade-in fade-out" -->
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.003.jpeg)<!-- .element: class="plain max" -->
+
+### We meet on master
+
+Note:
+
+The next stage is to look at collaboration and integration practices.  Here we have yet another metaphor, the release-train branching strategy.
+
+>>>>NEWSLIDE
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.004.jpeg)<!-- .element: class="plain max" -->
+
+### Automate everything
+
+Note:
+
+Then we begin to look at the manual processes and gatepoints in the factory, and seek opportunities for automation.
+
+>>>>NEWSLIDE
+
+<!-- .slide: data-transition="fade-in slide-out" -->
+
+![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.005.jpeg)<!-- .element: class="plain max" -->
+
+### What we develop, test, deploy and ship is the same
+
+Note:
+
+Finally, we look for opportunities to create consistency and reliability in the factory.
+
+>>>>NEWSLIDE
+
+## Everything "as Code"
 
 Infrastructure, test, software verification, web, graphical design, documentation, slide decks
+
+_...lunch, marketing, conferences_<!-- .element: class="fragment" -->
 
 Note:
 
@@ -270,8 +333,8 @@ That why we want anything and everything as code:
 
 Infrastructure, test, web, graphical deign, documentation.
 
->>
-![Lego](res/lego-component-product.png)<!-- .element: class="plain max" -->
+>>>>NEWSLIDE
+![Lego](../shared/img/lego-component-product.png)<!-- .element: class="plain max" -->
 
 ## Lego
 
@@ -289,7 +352,7 @@ Each lego block or has is own clear interface, it's own definiton of done and wh
 
 Perfect
 
->>
+>>>>NEWSLIDE
 
 ![Guns, gems and steel](res/guns-germs-steel.jpg)<!-- .element: class="plain large" -->
 
@@ -310,12 +373,14 @@ While at the same time, the stone age population in Indonesia lived of hard to g
 
 ---
 
-We use the analogy to tell why it's important to invest in optimizing surround conditions to the best possible, and not to fear the investment in sharpening the tools, it will pay back in the end.
+We use the analogy to tell why it's important to invest in optimizing surrounding conditions to the best possible, and not to fear the investment in sharpening the tools, it will pay back in the end.
 
->>
-![The Lannisters](res/the-lannisters.png)<!-- .element: class="plain large"-->
+>>>>NEWSLIDE
+
+![The Lannisters](res/the-lannisters.png)
 
 ## Technical Debt
+#### ...as in real DEBT!
 
 >"A Lannister always pay his debts"
 
@@ -323,7 +388,11 @@ Note:
 
 We talk about technical debt, we recon that probably most of you do. But that is also a metaphor. But try to stop and dwell with of it for a while.
 
+Did you even think of it as a metaphor? or has it become so much part of your daily lingo that you just use it as a - well technical phrase.
+
 It is actually a not just something that we've accidentally added to our lingo. it's indeed a _brilliant_ metaphor.
+
+Let's add some PATHOS to the - original metaphor DEBT!
 
 The sloppiness, brute force, unconsidered solutions that we some times throw into our code are not all bad - it's just debt.
 
@@ -335,24 +404,18 @@ You can have technical debt in your code, it's not a problem, but you need to ha
 
 Be a Lannister about it: "A Lannister always pays his debt"
 
->>>
+>>>>NEWSECTION
 
-![Knife](res/praqma-knife.jpeg)<!-- .element: class="plain medium"-->
-![We Don't Chop Wood](res/chopping-wood.jpg)<!-- .element: class="plain medium"-->
-## Proverbs for building identity
+![We Don't Chop Wood](res/chopping-wood.jpg)<!-- .element: class="plain small"-->
+![Knife](res/praqma-knife.jpeg)<!-- .element: class="plain small"-->
+
+## Sayings
 
 >"We don't chop wood - we sharpen axes"
 
 >"Know your tools - practice your knife skills"
 
->"We never Loose"
-
->>>
-
-
-
-## We Don't Chop Wood
-### We Sharpen Axes
+>"We never lose"
 
 Note:
 
@@ -363,3 +426,28 @@ A pendant or variant  of the bloody - but edifying - tale of the Bonnie situatio
 Meaning the we don't do repetitively manual work with dull tools. We optimize the process through better sharper tools - that will make everyone else go faster.
 
 It's a reminder to us to check if we are doing the right work, i.e the work that can add the most value.  If we are creating repetitive processes and tasks, we sense that we are chopping wood.  If a customer asks us to chop wood, we know that we should take a step back and look for the higher value fix.
+
+
+>>>>NEWSECTION
+
+<!-- .slide: data-transition="slide-in fade-out" -->
+
+![vincent and jules](res/jules-vincent.jpg)<!-- .element: class="plain medium" -->
+
+## Wrapping up
+#### Metaphors have PATHOS, they can:
+
+- Create an identity
+- Guide decision making
+- Provide a shortcut to understanding
+- Form a socal glue
+
+>>>>NEWSLIDE
+
+<!-- .slide: data-transition="fade-in" -->
+
+## Thank you
+
+<video  src="res/pulp-fiction-its-been-a-pleasure.mp4" data-autoplay></video>
+
+#### ...it's been a pleasure
