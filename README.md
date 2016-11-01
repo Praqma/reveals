@@ -16,7 +16,7 @@ or run with Jekyll from Docker container
     git clone git@github.com:Praqma/reveals.git
     cd reveals
     git submodule update --init    
-    docker run --rm-label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll
+    docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -p 4000:4000 jekyll/jekyll
 
 Then browse your decks like this:
 
