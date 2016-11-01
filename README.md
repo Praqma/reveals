@@ -3,11 +3,20 @@
 
 ## Jekyll flavor
 
+Get code and run with locally installed Jekyll to serve presentations
+
     git clone git@github.com:Praqma/reveals.git
     cd reveals
     git submodule init
     git submodule update
     jekyll serve
+
+or run with Jekyll from Docker container
+
+    git clone git@github.com:Praqma/reveals.git
+    cd reveals
+    git submodule update --init    
+    docker run --rm-label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll
 
 Then browse your decks like this:
 
