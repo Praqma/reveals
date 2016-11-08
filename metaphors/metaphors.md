@@ -17,7 +17,7 @@
 
 Buckle up - you're going on a ride with us!
 
-(That's a metaphor!  ...for this presentation being a car, you are the   passengers and we are the reckless drivers, we encourage you to trust us, but for safety measures, we worn you that the road ahead can be rough, so pay attentions and keep you hands inside the vehicle)<!-- .element: style="font-size:small;"-->
+(That's a metaphor!... for this presentation being a car, you are the passengers and we are the reckless drivers. We encourage you to trust us, but for safety measures, we warn you that the road ahead can be rough, so pay attention and keep your hands inside the vehicle at all times)<!-- .element: style="font-size:small;"-->
 
 <div>Mike (@meekrosoft)<br/>
 Lars (@lakruzz)<br/>
@@ -65,7 +65,7 @@ So let's embrace em': Metaphors, anecdotes and provers are cool - because they w
 
 ## Rhetorics
 
-In order for an argument, a persuasion or a message to come across it needs to have _personal character_, _emotion_ and _logic_.
+In order for an argument, a persuasion or a message to come across, it needs to have _personal character_, _emotion_ and _logic_.
 
 Note:
 
@@ -216,13 +216,13 @@ Note:
 
 See, he's actually facilitating the customer's own resources: Vincent and Jules, and through his guidance they are capable of doing work, that they thought was impossible, before Mr. Wolf appeared.
 
-In Praqma, we refer to our senior consultants as Wolves. We refer to the customer's "Bonnie situations", We refer to end users as Jimmi and Bonnie and. The customers smart and competent management we refer to as Marcellus Wallace and the people we team up with onsite at the customers are the Vincent's and Jules.
+In Praqma, we refer to our senior consultants as Wolves. We refer to the customer's "Bonnie situations", we refer to end users as Jimmi and Bonnie. The customers' smart and competent management we refer to as Marcellus Wallace and the people we team up with onsite at the customers are the Vincent and Jules.
 
 ---
 
 This metaphor works:
 
-It's a joke, but still: Internally in Praqma, our employees are seeking to become wolves. becoming a Wolf is a career path in Praqma.
+It's a joke, but still: Internally in Praqma, our employees are seeking to become wolves. Becoming a Wolf is a career path in Praqma.
 
 We even got our customers to refer to out consultants as Wolves
 
@@ -240,7 +240,7 @@ We even got our customers to refer to out consultants as Wolves
 
 ![CoDe factory floor](../shared/img/CoDeJourney/CoDeJourney.000.jpeg)<!-- .element: class="plain max" -->
 
-### Software as a factory
+### Software as a Factory
 
 Note:
 
