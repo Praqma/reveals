@@ -20,8 +20,13 @@ Continuous Delivery Pipelines are here to stay - you might as well just go with 
 
 ##### The question is really, what will pipelines look like in the future?
 
-<div>Lars (@lakruzz)<br/>
-Praqma (@praqma)</div><!-- .element: class="fragment"  style="font-size:small;"-->
+<div>
+Lars (@Lakruzz)<br/>
+Sonny (@TheKangBaby)<br/>
+Timea (@Timea)<br/>
+Jan (@JKrag)<br/>
+Praqma (@praqma)
+</div><!-- .element: class="fragment"  style="font-size:small;"-->
 
 
 Note:
@@ -128,7 +133,7 @@ Three small building blocks:
 - Tasks
 - Jobs
 
-Combined in indefinite composite structures knows as
+Combined in infinite composite structures knows as
 
 - Build plans
 
