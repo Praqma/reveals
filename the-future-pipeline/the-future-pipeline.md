@@ -118,6 +118,10 @@ Some of these principles demonstrated in Concourse
 
 ## It's like LEGO
 
+![Lego](res/lego-bricks.jpg)<!-- .element: class="plain medium" -->
+
+
+<div>
 Three small building blocks:
 
 - Resources
@@ -129,6 +133,8 @@ Combined in indefinite composite structures knows as
 - Build plans
 
 Enables you to model the entire world
+</div><!-- .element: style="font-size:0.6em;"-->
+
 
 >>>>NEWSLIDE
 
