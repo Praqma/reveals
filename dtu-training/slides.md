@@ -25,11 +25,10 @@ Not our typical audience!
 
 >>>>NEWSECTION
 ## Roadmap
-* Introduction to Git(Hub)
-* Exercise: Reveal your data
-* Collaboration extras (markdown?)
-* ?
-* Your fantastic scenarios
+* Hands-on introduction to GitHub
+* @lakruzz powertalk
+* Terminal ?
+* Katas ?
 
 >>>>NEWSECTION
 ## Setup
@@ -45,12 +44,16 @@ Have team leads announce team names
 ## Setup
 Log in to [github.com](github.com) and...
 
-*Leaders:*
+**Leaders**
 * Go to [the training repository](?)
 * Fork it!
 
-*Members:*
-* Go to your leader's repository 
+**Members**
+* Go to your leader's repository
+ 
+Note:
+  - Ensure students have .com accounts
+  - **DEMO:** Fork the repository yourself
                     
 >>>>NEWSECTION
 ## Quick intro
@@ -60,7 +63,6 @@ What is ...
 * a Git repository?
 
 Note:
-  - Ensure students have .com accounts
   - What is Git?
   - What is GitHub?
   - Briefly explain repos
@@ -73,33 +75,43 @@ Let's take a look around!
 
 Note:
 - Exploring a Repository
-  - GitHub Repositories
   - **DEMO:** Exploring a repository
-    - `Code` view
-    - `README.md`
-    - `Issues` view
-    - `Pull Request` view
+    - `Code` <-- The bulk of your repository, where you keep all your files and data
+    - `README.md` <-- A 'Markdown' file which gets rendered on the main page by default, explain markdown
+    - `Issues` <-- The heart of collaboration & communication, issues is where you can manage work/report problems,...
+    - `Pull Request` <-- Pull requests are a means of proposing changes to the repository, the owner can merge them in
     - `Wiki` <-- "A place to hold documentation for your repo"
     - `Pulse` and `Graphs` <-- "Dashboards, or the stats of your projects. Keep up to date on your project."
-    - `Settings` <-- "You don't see this because you aren't an owner or admin of this repository."
-      - Add co-teachers as your collaborators. Also add yourself!  
+    - `Settings` <-- "You don't see this because you aren't an owner or admin of this repository."  
+
 >>>>NEWSECTION
-Note:   
-- Using Issues
-  - Describe Issues
-  - DEMO: Using Issues
-    - Create issue for "Add me as a collaborator!"
-    - Discuss Permissions
-      - If you aren't a collaborator, on a public repo you may add a comment to an issue, or create an issue of your own. 
-      - You can't create branches, PRs, merge PRs. 
-    - @mention any co-teachers who will [run the script](https://github.com/github/training-utils/blob/master/add-collaborators) on their computer from https://github.com/github/training-utils
-      - make sure you have a `GITHUBTEACHER_TOKEN` saved for the repo you are using for every teacher/co-teacher
-      - make sure to run the script e.g. `add-collaborators -r praqmatrainer/everyone-12-2016 -i 1`  
->>>>NEWSECTION 
+## Issues
+
+**Members**
+* Create an issue:
+ 
+"Add me as a collaborator!"
+
+**Leaders**
+* Add your members
+* Resolve the issues
+
 Note:
-- Understanding the GitHub Flow (https://guides.github.com/introduction/flow/)
-    - Alternatively, to intro, you can use this: http://prezi.com/wlyhzbxadj_f/?utm_campaign=share&utm_medium=copy&rc=ex0share
->>>>NEWSECTION 
+  - Using Issues
+    - Describe Issues
+    - **DEMO:** Using Issues
+      - Create issue for "Add me as a collaborator!"
+      - Discuss Permissions
+        - If you aren't a collaborator, on a public repo you may add a comment to an issue, or create an issue of your own. 
+        - You can't create branches, PRs, merge PRs.
+    - **DEMO:** Add co-teachers as collaborators to your demo fork. Resolve the issue   
+ 
+
+>>>>NEWSECTION
+## You've got mail!
+
+Notification settings
+
 Note:
 - Social Features of GitHub
   - Explain how to control the flood of email by:
@@ -107,44 +119,87 @@ Note:
     - Watching (un-watching) repositories
       - Every time you're added as a collaborator to a repo, you're set to watch that repo.
     - Notification settings
-    - Notification center (Web icon)  
+    - Notification center (Web icon)
+    
 >>>>NEWSECTION 
+## A quick recap
+
+* Git(Hub)
+* Repositories
+* Collaborators
+* Issues
+* Notifications
+
+Now let's get started!
+
 Note:
-- **DEMO & LAB:** Create an issue
-  - Title: Create a new file for username hometown
-  - Content: 
-    - Add file for your hometown
-    - Include Steps (Create a branch, add file, create a commit, open a PR, have a discussion about PR, merge PR)
-  - Demonstrate markdown for headers, checkboxes and emoji
-    - Toolbar
-    - `Preview`
-  - `Assign` the issue to the teacher
-  - Add a `label`  
+ - Quickly recap what already went over
+
 >>>>NEWSECTION 
+## Proposing a workflow
+
+**[The GitHub Flow](https://guides.github.com/introduction/flow/)**
 Note:
-- **LAB:** Create an Issue to add your bio to the repo
->>>>NEWSECTION 
+ -They'll be making pull requests from their leaders' repo, to their leaders' repo
+
+>>>>NEWSECTION                                                                                                                                                      
+## Our first contribution
+
+Create an issue!
+
 Note:
-### Creating Your First Pull Request
+-  TODO: do we want them to create an issue beforehand? I think yes.
+- **DEMO & LAB:** 
+  - Create an issue
+    - Title: Create a bio file for Thierry
+    - Content: 
+      - Add a bio with some info on Thierry
+      - Include Steps (Create a branch, add file, create a commit, open a PR, have a discussion about PR, merge PR)
+    - Demonstrate markdown for headers, checkboxes and emoji
+      - Toolbar
+      - `Preview`
+    - `Assign` the issue to the person
+    - Add a `label`  
+
+>>>>NEWSECTION                                                                                                                                                      
+## Our first contribution
+
+Branch off!
+
+Note: 
 - Using Branches
   - Briefly discuss "Git Status" toolbar (commits, branches, releases, contributors)
   - **DEMO:** Creating a Branch
-    - Create a branch named `githubhandle-hometown`
-  - **LAB:** Learners create their own branch
-  - Notice what happens when you refresh the page/click on the main repo!  
->>>>NEWSECTION 
+    - Create a branch named `name-bio.md`
+  - Notice what happens when you refresh the page/click on the main repo!
+    
+>>>>NEWSECTION                                                                                                                                                      
+## Our first contribution
+
+Add some data!
+
+*bio/thierry-bio.md*
+```
+name: Thierry
+from: Belgium
+likes: Git! 
+```
+
 Note:
-- Creating Files on GitHub
-  - **DEMO:** Create a file on GitHub
-    - Name the file `handle-hometown.md`
-    - Demo creating a folder.
-    - Add Places to Eat/Places to Go/Places to Avoid/Fun Facts
-    - Commit the file to the branch
+ - **DEMO:** Create a file in a folder in the repository
+     - *bio/thierry-bio.md*
+   - When they've all done this, go to the commit graph
+   - Explain commits
       - Creates a safe rollback point for us.
       - Allows us to see our repo at a specific point in time.
       - "Oops Button"
-  - **LAB:** Learner creates a location-recommendation file and commits it to their branch  
->>>>NEWSECTION 
+      - Even allows us to rollback specific commits
+
+>>>>NEWSECTION
+## Our first contribution
+
+Create a pull request!
+  
 Note:
 - Creating Pull Requests
   - Understanding Pull Requests
@@ -152,13 +207,16 @@ Note:
     - Show `base:` and `compare:` drop downs
     - Issue resolution (Resolves/Closes #issuefrombefore)
     - Assignment, Label
-    - Create PR                            
->>>>NEWSECTION 
-Note:
-- **LAB:** Learner creates a pull request
-    - Return to original issue and hover over information pane
-    - Summarize where we've been.  
->>>>NEWSECTION 
+    - Create PR
+    - Assign to leader
+  - Return to original issue and hover over information pane
+  - Summarize where we've been.                            
+
+>>>>NEWSECTION
+## Our first contribution
+ 
+Collaborate on a PR, discuss!
+
 Note:
 - Pull Request Tools
     - `Conversation` view
@@ -167,15 +225,24 @@ Note:
     - Create line comment
     - Add a general comment to the discussion
     - Add :+1: emoji
-  - **LAB:** Learner comments on someone else's pull request
->>>>NEWSECTION 
+  - **DEMO:** Comment on someone else's pull request
+
+>>>>NEWSECTION
+## Our first contribution
+
+Let's tweak our data!
+
 Note:
 - Editing Pull Request Files
   - **DEMO:** Edit the file based on the pull request comments
    - Edit and commit the file changes
-   - Show the `Commits` tab
-  - **LAB:** Learner edits their file based on comments in the pull request  
->>>>NEWSECTION 
+   - Show the `Commits` tab  
+
+>>>>NEWSECTION
+## Our first contribution
+
+Merge in the branch!
+ 
 Note:
 - Merging Pull Requests
   - What happens when we merge Pull Requests
@@ -187,8 +254,8 @@ Note:
       - "Every time someone merges, GitHub checks for conflicts. If it doesn't have time to make the checks because of the amount of merges, it'll give us a 'Merge Attempt Failed' dialog." 
     - Delete the branch
     - Discuss "Revert"
-    - Show the closed issue
-  - **LAB:** Learner merges their pull request, closes the issue, and deletes the branch                                                                            
+    - Show the closed issue                                                                            
+
 >>>>NEWSECTION                                                                           
 Note:
 ### Using GitHub Locally
@@ -197,6 +264,7 @@ Note:
   - Everything is the same, except that you can't update multiple files in the same commit.
   - Git is super lightweight and you can work locally complete separate from your remote, and offline, with the entire history.
   - Everyone has a back-up at all times. DVCS.  
+
 >>>>NEWSECTION 
 Note: 
 - Intro to Desktop
@@ -208,11 +276,13 @@ Note:
       - Don't use @github.com, username will work just fine. 
       - Reiterate. This is not a constant connection. It will only do so when we tell it to. 
       - Update Advanced config information. Email is trainingdemos+githubteacher@github.com  
+
 >>>>NEWSECTION 
 Note:
 - Basic GitHub Desktop Configuration
   - Git Configuration Levels
   - **DEMO + ACTIVITY:** Set basic config  
+
 >>>>NEWSECTION         
 Note:
 - Cloning a Repository
@@ -228,6 +298,7 @@ Note:
     - Create branch on Desktop called `githubteacher-desktop`
       - Typically branch from master.
   - **LAB:** Learner clones the repo and switches to their branch  
+
 >>>>NEWSECTION 
 Note:
 - Editing Local Files
@@ -251,6 +322,7 @@ Note:
   - **LAB:** Learner edits, saves, and commits file
     - Make two changes to original file and add them as separate commits.
     - Add two files to a commit.  
+
 >>>>NEWSECTION 
 Note:
 - Publishing Changes
@@ -277,6 +349,7 @@ Note:
   - Return to desktop. Submit commit.
   - Return to .com, complete PR
   - Discuss merge conflict principles
+
 >>>>NEWSECTION                        
 Note:
 ### Managing Projects on GitHub
