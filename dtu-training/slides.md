@@ -242,13 +242,13 @@ Note:
 ## Our first contribution
 
 Merge in the branch!
- 
+
 Note:
 - Merging Pull Requests
   - What happens when we merge Pull Requests
     - Rule: Only merge your own pull request. Add :ship: to someone else's PR as example.
   - **DEMO:** Merge the pull request, closing the issue in the merge commit
-    - Discuss merge dropdown. Squash/Merge vs. default merge. 
+    - Discuss merge dropdown. Squash/Merge vs. default merge.
       - A squash merge deletes commit history. 
     - Merge attempt failed. 
       - "Every time someone merges, GitHub checks for conflicts. If it doesn't have time to make the checks because of the amount of merges, it'll give us a 'Merge Attempt Failed' dialog." 
@@ -257,15 +257,29 @@ Note:
     - Show the closed issue                                                                            
 
 >>>>NEWSECTION                                                                           
+## Another quick recap
+
+* Issues
+* Branch
+* Commit
+* Pull request
+* Merge
+
+>>>>NEWSECTION                                                                           
+## A local Git
+
+* UI (GitHub Desktop/gitg)
+* Terminal
+
 Note:
-### Using GitHub Locally
-- navigate to https://desktop.github.com/
 - Why Use GitHub Desktop?
   - Everything is the same, except that you can't update multiple files in the same commit.
-  - Git is super lightweight and you can work locally complete separate from your remote, and offline, with the entire history.
+  - Git is super lightweight and you can work locally completely separate from your remote, and offline, with the entire history.
   - Everyone has a back-up at all times. DVCS.  
 
->>>>NEWSECTION 
+>>>>NEWSECTION
+## Setting up
+
 Note: 
 - Intro to Desktop
   - Tutorial Repo (Encourage them to do this later.)
