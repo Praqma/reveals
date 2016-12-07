@@ -442,7 +442,7 @@ In this section, you will:
 
 #### Linux users:
 
-Follow the same instructions, but use `gitg or other client.
+Follow the same instructions, but use `gitg` or other client.
 Ask for help from instructors where needed.
 
 Note:
@@ -465,6 +465,27 @@ The benefits of GitHub Desktop:
 * View your project’s history.
 * Sync your repository with GitHub.
 
+>>>>NEWSECTION
+
+## Create a presentation
+Lets have some fun with Reveal.js
+
+* [http://code.praqma.com/librarian/librarian-as-coder/#/2](http://code.praqma.com/librarian/librarian-as-coder/#/2)
+
+or the simpler version at:
+* [https://github.com/praqma-training/simple-reveals](https://github.com/praqma-training/simple-reveals)
+
+Inspiration: 
+[http://lab.hakim.se/reveal-js/](http://lab.hakim.se/reveal-js/)
+
+Note:
+Create a new repo to play with!
+
+1. On GitHub, fork [`praqma/librarian`](https://github.com/Praqma/librarian)<!-- .element: target="_blank" --> to your own user
+2. In your own fork, go to `settings` and enable GitHub Pages, pointing to the `master` branch
+3. Browse to http://your-user-name.github.io/librarian-as-coder
+4. Now go and tinker with the<br/> `/librarian-as-coder/librarian-as-coder.md` file in your repository
+5. Each commit updates the live website!
 
 >>>>NEWSECTION
 ### Resources
