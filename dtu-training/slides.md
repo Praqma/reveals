@@ -423,3 +423,9 @@ Note:
 
 Note:
 * Go over [the GitHub Flow](https://guides.github.com/introduction/flow/)** again
+
+    NEWSECTION
+### Resources
+
+ - [https://services.github.com/classnotes/](https://services.github.com/classnotes/)    
+ - [guides.github.com/features/mastering-markdown/](http://guides.github.com/features/mastering-markdown/)
