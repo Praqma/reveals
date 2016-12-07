@@ -39,10 +39,13 @@ Note:
 
 >>>>NEWSECTION
 ## Roadmap
-* Hands-on intro to GitHub
-* Powertalk by [@lakruzz](https://github.com/lakruzz)
-* 
+* Introduction to GitHub
+* The GitHub Flow
+* A local GitHub
+* GitHub Pages
 
+>>>>NEWSECTION
+# Introduction to GitHub
 
 >>>>NEWSECTION
 ## Quick intro
@@ -50,7 +53,7 @@ What is ...
 
 Git?
 <br />GitHub?
-<br />a repository?
+<br />A repository?
 
 Note:
 * Git is technology used to version files.
@@ -62,34 +65,8 @@ Note:
   * Work, discussions and file changes happen in the scope of a repository
 
 >>>>NEWSECTION
-## Setup
-Make teams!
-* 3-4 members
-* a team leader
-* a team name
-
-Note:
-* Team leads announce their team names
-                                    
->>>>NEWSECTION
-## Setup
-Log in to [github.com](github.com) and...
-
-**Leaders**
-<br />Create a repository!
-
-**Members**
-<br />Go to your lead's repository
- 
-Note:
-So let's create a repository
- * Create a repository yourself
- * Include a README file, handwave it for now
- * Have team leads create a repo
-
->>>>NEWSECTION
 ## Exploring a repository
-Let's take a look around!
+Visit [github.com/Praqma/praqma.com](https://github.com/Praqma/praqma.com)
 
 Note:
 * Visit the [praqma.com](https://github.com/Praqma/praqma.com) repo
@@ -112,34 +89,39 @@ Note:
   * You don't see this unless you're an owner or admin  
 
 >>>>NEWSECTION
-## Issues
+## Team up!
 
-**Members**
-<br />Create an issue:
-<br />"Add me as a collaborator!"
-
-**Leaders**
-<br />Add your members,
-<br />resolve the issues
+* 3-4 members
+* a team name
+* a team captain
 
 Note:
-* Issues are what drives work
-* They describe problems, tasks, etc.
-* Anyone can create issues on any repository
-* **DEMO:** (Jan) creates an issue to add Jan as collaborator
-* Collaborators can make changes, branches and merge in PR's
-* Create an issue for your team leader add you as collaborator
-* Team leader, add them in the settings page and resolve the issues!
-* **DEMO:** Add Jan as collaborator to your demo repo. Resolve the issue   
+* Team captain announces their team name
+
+>>>>NEWSECTION
+## Setup
+* Log in to [github.com](github.com)
+* Visit [github.com/praqma-training/dst4l](github.com/praqma-training/dst4l)
+* Head over to **Issues**
+* Comment on the issue thread!
+                           
+Note:
+* Now that you're teamed up, let's do some setup.
+* Head over to the training repo and comment an the issue there.
+* Anyone can create issues and comment on existing ones.
+* But you have to be a collaborator to make any changes to the repository.
+* Comment on the issue and we'll add you as a collaborator.
+* **SETUP:** Add everyone as collaborators
  
 >>>>NEWSECTION
 ## You've got mail!
 
-Thread subscription
-<br />Repository watching
+Now is a good time to talk about:
+* Thread subscription
+* Repository watching
 
 Note:
-* Before we really get into things, let's prevent email floods
+* Now that you've all gotten a bunch of emails, let's talk about controlling notifications
 * GitHub sends you notifications of:
   * Issue threads you're subscribed to
   * Repositories you're watching
@@ -148,7 +130,27 @@ Note:
 * You can unwatch repositories
 * **DEMO:** Unwatch and unsubscribe from thread/repositories
 * **DEMO:** Change notification settings in GitHub profile
-    
+
+>>>>NEWSECTION
+## Our first commit
+
+Create a new file in the repository:
+<br />**`team-name/member-name-bio.md`**
+
+Tell us a bit about yourself!
+
+Note:
+* Explain that `foo/bar.md` creates a `bar.md` file in a `foo` directory
+* Feel free to use Markdown to spice up your bio!
+  * **Make sure the cheat sheets are handed out.**
+* Write a nice message when committing the file to the repository!
+* **When they're done:**
+  * Go to the commit graph
+  * Explain commits
+    * Creates a safe rollback point for us.
+    * Allows us to see our repo at a specific point in time.
+    * Even allows us to rollback specific commits 
+
 >>>>NEWSECTION 
 ## A quick recap
 
@@ -156,8 +158,8 @@ Git(Hub)<br />
 Repositories<br />
 Collaborators<br />
 Issues<br />
-Notifications<br />
-
+Notifications<br />       
+    
 Note:
 * GitHub is a collaboration platform around Git
 * Git is a versioning control system used for managing file versions
@@ -165,8 +167,46 @@ Note:
 * Issues are discussion threads for problems/tasks to work on
 * Notifications are eager to give you updates on issues, but don't get flooded by them!
 
+>>>>NEWSECTION
+# The GitHub Flow
+                                    
+>>>>NEWSECTION
+## Setup
+
+**Captains**
+<br />Create a team repository
+
+**Members**
+<br />Go to your team repository
+ 
+Note:
+So let's create a repository
+ * Create a repository yourself
+ * Include a README file, handwave it for now
+ * Have team captain create a repo
+
+>>>>NEWSECTION
+## Setup
+
+**Members**
+<br />Create an issue: <br />`"Add me as a collaborator!"`
+
+**Captains**
+* Add your members as collaborators
+* Resolve their issue
+
+Note:
+* Issues are what drives work
+* They describe problems, tasks, etc.
+* Anyone can create issues on any repository
+* Collaborators can make changes, branches and merge in PR's
+* **DEMO:** (Jan) creates an issue to add Jan as collaborator
+* Create an issue for your team captain add you as collaborator
+* **DEMO:** Add Jan as collaborator to your demo repo. Resolve the issue   
+* Team captain, add them in the settings page and resolve the issues!   
+
 >>>>NEWSECTION 
-## Proposing a workflow
+## Go with the flow
 
 **[The GitHub Flow](https://guides.github.com/introduction/flow/)**
 
@@ -176,31 +216,42 @@ Note:
 * Let's take a quick peek
 * **DEMO:** Go through GH Flow
 * It focuses on tying your work to issues and promotes discussion of the changes you're making
+* Let's do some work following this flow
 
 >>>>NEWSECTION                                                                                                                                                      
-## Our first contribution
+## Propose a change!
 
-Create an issue!
+* Choose an animal _(may be extinct)_
+* Create an issue
+  * `"Add my-animal"`
+* Assign yourself
 
 Note:
-* Let's do some work following this flow
-* Say we want to add bios of all the team members to the project
-* Let's start by creating issues for that, shall we?
+* Again, issues drive work, so let's get started.
+* Pick any animal and create an issue to add that animal to your repository
+* Assign yourself to the issue
 * **DEMO:** Create an issue:
-  * Title: Create a bio file for Thierry
+  * Title: Add sheep 
   * Content: 
-    * Add a bio with some info on Thierry
-    * Include Steps (Create a branch, add file, create a commit, open a PR, have a discussion about PR, merge PR)
+    <br />Add sheep to our catalogue of critters:
+    <br /> - [] Create a branch
+    <br /> - [] Add a file with ASCII art
+    <br /> - [] Commit the file
+    <br /> - [] Open a PR
+    <br /> - [] Discuss changes
+    <br /> - [] Tweak changes
+    <br /> - [] Merge PR
   * Demonstrate markdown for headers, checkboxes, etc.
     * Toolbar
     * `Preview`
-  * `Assign` the issue to a person
-  * Add a `label`  
+  * Assign the issue to a yourself
+  * Add a label  
 
 >>>>NEWSECTION                                                                                                                                                      
-## Our first contribution
+## Branch off!
 
-Branch off!
+Create a branch:<br />
+`my-animal`
 
 Note:                               
 * Now we have our issue, let's do some work
@@ -212,96 +263,119 @@ Note:
 * Demo what happens when you refresh the page/click on the main repo!
     
 >>>>NEWSECTION                                                                                                                                                      
-## Our first contribution
+## Do some work!
 
-Add some data!
-
-*bio/thierry-bio.md*
+Create a file for your animal<br />
+**`zoo/sheep.txt`**
 ```
- * name: Thierry
- * from: Belgium
- * likes: Git! 
+                           .@@@.    "Baaaaahd art."
+              .@#@#@#@#@/@/@/@@@     /
+            .#@#@#@#@#@#@#@/@'u\   /
+          *(|@#@#@#@#@#@#@#@(   \
+              @#@#@#@#@#@#@# \ww/
+               @#@#@#@#@#@# 
+               ) //   | ||
+               \ \\   | ||
+                \ \\  | \\
+                 """   """
 ```
+**!!** Make sure you are on _your_ branch **!!**
 
 Note:
- - **DEMO:** Create a file in a folder in the repository
-     - *bio/thierry-bio.md*
-   - When they've all done this, go to the commit graph
-   - Explain commits
-      - Creates a safe rollback point for us.
-      - Allows us to see our repo at a specific point in time.
-      - "Oops Button"
-      - Even allows us to rollback specific commits
+* While we're on our branch, let's create a file
+* **DEMO:** Create a file in a folder in the repository
+  * `zoo/sheep.md`
+  * Commit the file
 
 >>>>NEWSECTION
-## Our first contribution
+## Open a pull request!
 
-Create a pull request!
+**Everyone**
+
+* Head over to `branches`
+* Open a pull request for your branch
+* Reference your issue in the comment
   
 Note:
-- Creating Pull Requests
-  - Understanding Pull Requests
-  - **DEMO:** Creating a Pull Request on GitHub
-    - Show `base:` and `compare:` drop downs
-    - Issue resolution (Resolves/Closes #issuefrombefore)
-    - Assignment, Label
-    - Create PR
-    - Assign to leader
-  - Return to original issue and hover over information pane
-  - Summarize where we've been.                            
+* Now we've done our work, let's share it by opening a pull request
+* Pull requests are a great tool for discussing changes and eventually merging them in
+* **DEMO:** Creating a Pull Request on GitHub
+  * Show `base:` and `compare:` drop downs
+  * Reference issue from before "Hey, I did some work on #2"
+  * Assign to captain, label as enhancement
+  * Create PR  
+* Return to original issue and hover over information pane                            
 
 >>>>NEWSECTION
-## Our first contribution
+## Collaborate!
  
-Collaborate on a PR, discuss!
+* Visit eachother's Pull Requests
+* Collaborate:
+  * Discuss improvements
+  * Post ~~mean~~ *nice* comments
+  * Tag with emoji's
 
 Note:
-- Pull Request Tools
-    - `Conversation` view
-    - `Commits` view
-    - `Files changed` view
-    - Create line comment
-    - Add a general comment to the discussion
-    - Add :+1: emoji
-  - **DEMO:** Comment on someone else's pull request
+* Let's take a look at this PR
+* **DEMO**
+ * `Conversation` view
+ * `Commits` view
+ * `Files changed` view
+ * Create line comment
+   * Add a general comment to the discussion
+   * Add :+1: emoji
 
 >>>>NEWSECTION
-## Our first contribution
+## Improve!
 
-Let's tweak our data!
+* Revisit your branch and file
+* Improve it using the feedback you received
+* Revisit the pull requests
 
 Note:
-- Editing Pull Request Files
-  - **DEMO:** Edit the file based on the pull request comments
-   - Edit and commit the file changes
-   - Show the `Commits` tab  
+* After a healthy discussion on your issue, make some changes!
+* **DEMO:** Edit the file based on the pull request comments
+  * Show the `Commits` tab
+  * Update the issue to discuss your new changes
+  * Comment on other people's PR's: Good to go!
 
 >>>>NEWSECTION
-## Our first contribution
+## Merge it in!
 
-Merge in the branch!
+* Head back to your PR
+* Merge in the pull request
+* Mention your issue in the comment
+  * `"This adds a sheep. Resolves issue #3."`
 
 Note:
-- Merging Pull Requests
-  - What happens when we merge Pull Requests
-    - Rule: Only merge your own pull request. Add :ship: to someone else's PR as example.
-  - **DEMO:** Merge the pull request, closing the issue in the merge commit
-    - Discuss merge dropdown. Squash/Merge vs. default merge.
-      - A squash merge deletes commit history. 
-    - Merge attempt failed. 
-      - "Every time someone merges, GitHub checks for conflicts. If it doesn't have time to make the checks because of the amount of merges, it'll give us a 'Merge Attempt Failed' dialog." 
-    - Delete the branch
-    - Discuss "Revert"
-    - Show the closed issue                                                                            
+* So now our changes look really nice
+* Let's merge them in!
+* When you merge a pull request, the changes you've made get applied to the 'master' branch
+  * Rule: Only merge your own pull request. Add :ship: to someone else's PR as example.
+* **DEMO:** Merge the pull request, closing the issue in the merge commit
+  * Discuss merge dropdown. Squash/Merge vs. default merge.
+    * A squash merge 'squashes' your changes into a single commit
+      * This deletes the commit history. 
+  * IF: Merge attempt failed. 
+    * Every time someone merges, GitHub checks for conflicts. 
+    * If it doesn't have time to make the checks because of the amount of merges, it'll give us a 'Merge Attempt Failed' dialog. 
+  * When it's done, deletes the branch
+  * Show the closed issue                                                                            
 
 >>>>NEWSECTION                                                                           
-## Another quick recap
+## A quick recap
 
-* Issue
-* Branch
-* Commit
-* Pull request
+* Open an issue
+* Branch off
+* Do some work
+* Collaborate
 * Merge
+
+Note:
+* Go over [the GitHub Flow](https://guides.github.com/introduction/flow/)** again
+              
+>>>>NEWSECTION
+# A local GitHub
 
 >>>>NEWSECTION                                                                           
 ## A local Git
