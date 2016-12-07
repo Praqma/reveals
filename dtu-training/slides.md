@@ -6,7 +6,9 @@ Jan Krag & Thierry Lacour
 ## Who are we?
 ### Jan Krag
 <img src="img/jan.png" alt="Jan Krag" width="30%"/>
-<br />Continuous Improvement Agent
+
+
+Continuous Improvement Agent
 
 Note:
 * We work for Praqma, a consultancy company focusing on helping customers implement CoDe
@@ -16,7 +18,9 @@ Note:
 ## Who are we?
 ### Thierry Lacour
 <img src="img/thierry.png" alt="Thierry Lacour" width="30%"/>
-<br />Automation Toolsmith
+
+
+Automation Toolsmith
 
 Note:
 * Software developer
@@ -27,7 +31,9 @@ Note:
 ## Who are you?
 ### Librarians
 <img src="img/librarian.jpg" alt="The Librarian" width="30%"/>
-<br />Not our typical audience!
+
+
+Not our typical audience!
 
 Note:
 * We usually train software developers
@@ -52,8 +58,12 @@ Note:
 What is ...
 
 Git?
-<br />GitHub?
-<br />A repository?
+
+
+GitHub?
+
+
+A repository?
 
 Note:
 * Git is technology used to version files.
@@ -135,7 +145,9 @@ Note:
 ## Our first commit
 
 Create a new file in the repository:
-<br />**`team-name/member-name-bio.md`**
+
+
+**`team-name/member-name-bio.md`**
 
 Tell us a bit about yourself!
 
@@ -154,11 +166,21 @@ Note:
 >>>>NEWSECTION 
 ## A quick recap
 
-Git(Hub)<br />
-Repositories<br />
-Collaborators<br />
-Issues<br />
-Notifications<br />       
+Git(Hub)
+
+
+Repositories
+
+
+Collaborators
+
+
+Issues
+
+
+Notifications
+
+       
     
 Note:
 * GitHub is a collaboration platform around Git
@@ -174,10 +196,14 @@ Note:
 ## Setup
 
 **Captains**
-<br />Create a team repository
+
+
+Create a team repository
 
 **Members**
-<br />Go to your team repository
+
+
+Go to your team repository
  
 Note:
 So let's create a repository
@@ -189,7 +215,11 @@ So let's create a repository
 ## Setup
 
 **Members**
-<br />Create an issue: <br />`"Add me as a collaborator!"`
+
+
+Create an issue: 
+
+`"Add me as a collaborator!"`
 
 **Captains**
 * Add your members as collaborators
@@ -233,14 +263,30 @@ Note:
 * **DEMO:** Create an issue:
   * Title: Add sheep 
   * Content: 
-    <br />Add sheep to our catalogue of critters:
-    <br /> - [] Create a branch
-    <br /> - [] Add a file with ASCII art
-    <br /> - [] Commit the file
-    <br /> - [] Open a PR
-    <br /> - [] Discuss changes
-    <br /> - [] Tweak changes
-    <br /> - [] Merge PR
+    
+
+Add sheep to our catalogue of critters:
+    
+
+ - [] Create a branch
+    
+
+ - [] Add a file with ASCII art
+    
+
+ - [] Commit the file
+    
+
+ - [] Open a PR
+    
+
+ - [] Discuss changes
+    
+
+ - [] Tweak changes
+    
+
+ - [] Merge PR
   * Demonstrate markdown for headers, checkboxes, etc.
     * Toolbar
     * `Preview`
@@ -250,7 +296,9 @@ Note:
 >>>>NEWSECTION                                                                                                                                                      
 ## Branch off!
 
-Create a branch:<br />
+Create a branch:
+
+
 `my-animal`
 
 Note:                               
@@ -265,7 +313,9 @@ Note:
 >>>>NEWSECTION                                                                                                                                                      
 ## Do some work!
 
-Create a file for your animal<br />
+Create a file for your animal
+
+
 **`zoo/sheep.txt`**
 ```
                            .@@@.    "Baaaaahd art."
