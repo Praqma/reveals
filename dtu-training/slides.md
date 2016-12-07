@@ -21,7 +21,9 @@ Note:
 * Software developer
 * Jack of all trades
 * Backline support for people at customers
-                    
+* We work for Praqma, a consultancy company focusing on helping customers implement CoDe
+* We'll not go into that now, Lars will show up to talk about that later 
+
 >>>>NEWSECTION
 ## Who are you?
 ### Librarians
@@ -39,8 +41,8 @@ Note:
 ## Roadmap
 * Hands-on intro to GitHub
 * Powertalk by [@lakruzz](https://github.com/lakruzz)
-* Terminal ?
-* Katas ?
+* 
+
 
 >>>>NEWSECTION
 ## Quick intro
@@ -86,19 +88,28 @@ So let's create a repository
  * Have team leads create a repo
 
 >>>>NEWSECTION
-## Exploring the repository
+## Exploring a repository
 Let's take a look around!
 
 Note:
-* `Code` repository bulk, where you keep all your files and data
-* `README.md` 'Markdown' file rendered on the main page by default
+* Visit the [praqma.com](https://github.com/Praqma/praqma.com) repo
+* `Code` 
+  * repository bulk, where you keep all your files and data
+* `README.md` 
+  * 'Markdown' file rendered on the main page by default
   * Make sure you hand out MD cheat sheets 
-* `Issues` The heart of collaboration & communication, where you manage work/report problems, etc.
-* `Projects` A means to organize/plan your issues 
-* `Pull Request` Pull requests are for proposing changes to the repo, owners can merge them in
-* `Wiki` A place to hold documentation for your repo
-* `Pulse` and `Graphs` Dashboards and useful data of your project
-* `Settings` You don't see this unless you're an owner or admin  
+* `Issues` 
+  * The heart of collaboration & communication, where you manage work/report problems, etc.
+* `Projects` 
+  * A means to organize/plan your issues 
+* `Pull Request` 
+  * Pull requests are for proposing changes to the repo, owners can merge them in
+* `Wiki` 
+  * A place to hold documentation for your repo
+* `Pulse` and `Graphs` 
+  * Dashboards and useful data of your project
+* `Settings` 
+  * You don't see this unless you're an owner or admin  
 
 >>>>NEWSECTION
 ## Issues
@@ -112,16 +123,15 @@ Note:
 <br />resolve the issues
 
 Note:
-  - Using Issues
-    - Describe Issues
-    - **DEMO:** Using Issues
-      - Create issue for "Add me as a collaborator!"
-      - Discuss Permissions
-        - If you aren't a collaborator, on a public repo you may add a comment to an issue, or create an issue of your own. 
-        - You can't create branches, PRs, merge PRs.
-    - **DEMO:** Add co-teachers as collaborators to your demo fork. Resolve the issue   
+* Issues are what drives work
+* They describe problems, tasks, etc.
+* Anyone can create issues on any repository
+* **DEMO:** (Jan) creates an issue to add Jan as collaborator
+* Collaborators can make changes, branches and merge in PR's
+* Create an issue for your team leader add you as collaborator
+* Team leader, add them in the settings page and resolve the issues!
+* **DEMO:** Add Jan as collaborator to your demo repo. Resolve the issue   
  
-
 >>>>NEWSECTION
 ## You've got mail!
 
@@ -129,34 +139,43 @@ Thread subscription
 <br />Repository watching
 
 Note:
-- Social Features of GitHub
-  - Explain how to control the flood of email by:
-    - Unsubscribing to threads
-    - Watching (un-watching) repositories
-      - Every time you're added as a collaborator to a repo, you're set to watch that repo.
-    - Notification settings
-    - Notification center (Web icon)
+* Before we really get into things, let's prevent email floods
+* GitHub sends you notifications of:
+  * Issue threads you're subscribed to
+  * Repositories you're watching
+  * By default, you watch repositories you join (changed in profile settings)
+* You can unsubscribe from issue threads
+* You can unwatch repositories
+* **DEMO:** Unwatch and unsubscribe from thread/repositories
+* **DEMO:** Change notification settings in GitHub profile
     
 >>>>NEWSECTION 
 ## A quick recap
 
-* Git(Hub)
-* Repositories
-* Collaborators
-* Issues
-* Notifications
-
-Now let's get started!
+Git(Hub)<br />
+Repositories<br />
+Collaborators<br />
+Issues<br />
+Notifications<br />
 
 Note:
- - Quickly recap what already went over
+* GitHub is a collaboration platform around Git
+* Git is a versioning control system used for managing file versions
+* Repositories are the heart of a project, they hold the files and are the scope of issues
+* Issues are discussion threads for problems/tasks to work on
+* Notifications are eager to give you updates on issues, but don't get flooded by them!
 
 >>>>NEWSECTION 
 ## Proposing a workflow
 
 **[The GitHub Flow](https://guides.github.com/introduction/flow/)**
+
 Note:
- -They'll be making pull requests from their leaders' repo, to their leaders' repo
+* Before we start working, let us propose a nice workflow
+* Workflow promoted by GitHub themselves
+* Let's take a quick peek
+* **DEMO:** Go through GH Flow
+* It focuses on tying your work to issues and promotes discussion of the changes you're making
 
 >>>>NEWSECTION                                                                                                                                                      
 ## Our first contribution
@@ -164,30 +183,33 @@ Note:
 Create an issue!
 
 Note:
--  TODO: do we want them to create an issue beforehand? I think yes.
-- **DEMO & LAB:** 
-  - Create an issue
-    - Title: Create a bio file for Thierry
-    - Content: 
-      - Add a bio with some info on Thierry
-      - Include Steps (Create a branch, add file, create a commit, open a PR, have a discussion about PR, merge PR)
-    - Demonstrate markdown for headers, checkboxes and emoji
-      - Toolbar
-      - `Preview`
-    - `Assign` the issue to the person
-    - Add a `label`  
+* Let's do some work following this flow
+* Say we want to add bios of all the team members to the project
+* Let's start by creating issues for that, shall we?
+* **DEMO:** Create an issue:
+  * Title: Create a bio file for Thierry
+  * Content: 
+    * Add a bio with some info on Thierry
+    * Include Steps (Create a branch, add file, create a commit, open a PR, have a discussion about PR, merge PR)
+  * Demonstrate markdown for headers, checkboxes, etc.
+    * Toolbar
+    * `Preview`
+  * `Assign` the issue to a person
+  * Add a `label`  
 
 >>>>NEWSECTION                                                                                                                                                      
 ## Our first contribution
 
 Branch off!
 
-Note: 
-- Using Branches
-  - Briefly discuss "Git Status" toolbar (commits, branches, releases, contributors)
-  - **DEMO:** Creating a Branch
-    - Create a branch named `name-bio.md`
-  - Notice what happens when you refresh the page/click on the main repo!
+Note:                               
+* Now we have our issue, let's do some work
+* If you work on a branch, your work is isolated and doesn't bother others
+* So let's make a branch to do some work
+* Briefly discuss "Git Status" toolbar (commits, branches, releases, contributors) 
+* **DEMO:** Creating a Branch          
+* Create a branch named `thierry-bio`
+* Demo what happens when you refresh the page/click on the main repo!
     
 >>>>NEWSECTION                                                                                                                                                      
 ## Our first contribution
