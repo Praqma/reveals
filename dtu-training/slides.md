@@ -6,95 +6,110 @@ Jan Krag & Thierry Lacour
 ## Who are we?
 ### Jan Krag
 <img src="img/jan.png" alt="Jan Krag" width="30%"/>
+<br />Continuous Improvement Agent
 
-Continuous Improvement Agent
+Note:
+Maybe some points you want to talk about
                   
 >>>>NEWSECTION
 ## Who are we?
 ### Thierry Lacour
 <img src="img/thierry.png" alt="Thierry Lacour" width="30%"/>
+<br />Automation Toolsmith
 
-Automation Toolsmith
+Note:
+* Software developer
+* Jack of all trades
+* Backline support for people at customers
                     
 >>>>NEWSECTION
 ## Who are you?
 ### Librarians
 <img src="img/librarian.jpg" alt="The Librarian" width="30%"/>
+<br />Not our typical audience!
 
-Not our typical audience!
+Note:
+* We usually train software developers
+* The training topic is also very "devvy"
+* Interested to see:
+  * Your reaction
+  * Your ideas
 
 >>>>NEWSECTION
 ## Roadmap
-* Hands-on introduction to GitHub
-* @lakruzz powertalk
+* Hands-on intro to GitHub
+* Powertalk by [@lakruzz](https://github.com/lakruzz)
 * Terminal ?
 * Katas ?
 
 >>>>NEWSECTION
-## Setup
-Make teams! 
-* 3-4 members
-* A leader         
-* A name
+## Quick intro
+What is ...
+
+Git?
+<br />GitHub?
+<br />a repository?
 
 Note:
-Have team leads announce team names
-                
+* Git is technology used to version files.
+  * Git manages versions and allows for easy comparison/rollback/etc.
+* GitHub is a collaboration platform built around Git
+  * Big community, very popular, lots of successful open source projects
+* The repository is the entity around which collaboration happens
+  * It's the file store for a single project or component, etc.
+  * Work, discussions and file changes happen in the scope of a repository
+
+>>>>NEWSECTION
+## Setup
+Make teams!
+* 3-4 members
+* a team leader
+* a team name
+
+Note:
+* Team leads announce their team names
+                                    
 >>>>NEWSECTION
 ## Setup
 Log in to [github.com](github.com) and...
 
 **Leaders**
-* Go to [the training repository](?)
-* Fork it!
+<br />Create a repository!
 
 **Members**
-* Go to your leader's repository
+<br />Go to your lead's repository
  
 Note:
-  - Ensure students have .com accounts
-  - **DEMO:** Fork the repository yourself
-                    
->>>>NEWSECTION
-## Quick intro
-What is ...
-* Git?
-* GitHub?
-* a Git repository?
+So let's create a repository
+ * Create a repository yourself
+ * Include a README file, handwave it for now
+ * Have team leads create a repo
 
-Note:
-  - What is Git?
-  - What is GitHub?
-  - Briefly explain repos
-  - The GitHub Ecosystem
-    - Talk about fun open source stuff!
-    
 >>>>NEWSECTION
 ## Exploring the repository
 Let's take a look around!
 
 Note:
-- Exploring a Repository
-  - **DEMO:** Exploring a repository
-    - `Code` <-- The bulk of your repository, where you keep all your files and data
-    - `README.md` <-- A 'Markdown' file which gets rendered on the main page by default, explain markdown
-    - `Issues` <-- The heart of collaboration & communication, issues is where you can manage work/report problems,...
-    - `Pull Request` <-- Pull requests are a means of proposing changes to the repository, the owner can merge them in
-    - `Wiki` <-- "A place to hold documentation for your repo"
-    - `Pulse` and `Graphs` <-- "Dashboards, or the stats of your projects. Keep up to date on your project."
-    - `Settings` <-- "You don't see this because you aren't an owner or admin of this repository."  
+* `Code` repository bulk, where you keep all your files and data
+* `README.md` 'Markdown' file rendered on the main page by default
+  * Make sure you hand out MD cheat sheets 
+* `Issues` The heart of collaboration & communication, where you manage work/report problems, etc.
+* `Projects` A means to organize/plan your issues 
+* `Pull Request` Pull requests are for proposing changes to the repo, owners can merge them in
+* `Wiki` A place to hold documentation for your repo
+* `Pulse` and `Graphs` Dashboards and useful data of your project
+* `Settings` You don't see this unless you're an owner or admin  
 
 >>>>NEWSECTION
 ## Issues
 
 **Members**
-* Create an issue:
- 
-"Add me as a collaborator!"
+<br />Create an issue:
+<br />"Add me as a collaborator!"
 
 **Leaders**
-* Add your members
-* Resolve the issues
+<br />Add your members,
+<br />resolve the issues
 
 Note:
   - Using Issues
@@ -110,7 +125,8 @@ Note:
 >>>>NEWSECTION
 ## You've got mail!
 
-Notification settings
+Thread subscription
+<br />Repository watching
 
 Note:
 - Social Features of GitHub
@@ -180,9 +196,9 @@ Add some data!
 
 *bio/thierry-bio.md*
 ```
-name: Thierry
-from: Belgium
-likes: Git! 
+ * name: Thierry
+ * from: Belgium
+ * likes: Git! 
 ```
 
 Note:
@@ -259,7 +275,7 @@ Note:
 >>>>NEWSECTION                                                                           
 ## Another quick recap
 
-* Issues
+* Issue
 * Branch
 * Commit
 * Pull request
