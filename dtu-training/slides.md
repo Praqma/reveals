@@ -424,7 +424,49 @@ Note:
 Note:
 * Go over [the GitHub Flow](https://guides.github.com/introduction/flow/)** again
 
-    NEWSECTION
+>>>>NEWSECTION
+### Working locally
+In this section, you will:
+
+ - Create a new repository
+ - Work with your repository on your local machine
+ - Convert your repository into a website
+ - Host and share your website
+
+>>>>NEWSECTION
+
+### GitHub Desktop
+#### For Windows and Mac users - follow:
+
+[https://services.github.com/on-demand/github-desktop/](https://services.github.com/on-demand/github-desktop/)
+
+#### Linux users:
+
+Follow the same instructions, but use `gitg or other client.
+Ask for help from instructors where needed.
+
+Note:
+Recap: you should already have done (some of) this
+
+* Download and install [GitHub Desktop](https://desktop.github.com/).
+* Open GitHub Desktop.
+* Follow the prompts to sign in to your account.
+* Configure your user information 
+  * (this only happens the first time you run the application).
+
+The benefits of working locally with Git:
+
+* Include changes to more than one file in a single commit
+* Work on your project while disconnected from the internet
+* Run local builds and tests on your project
+ 
+The benefits of GitHub Desktop:
+* Remove complexity when working with Git locally.
+* View your project’s history.
+* Sync your repository with GitHub.
+
+
+>>>>NEWSECTION
 ### Resources
 
  - [https://services.github.com/classnotes/](https://services.github.com/classnotes/)    
