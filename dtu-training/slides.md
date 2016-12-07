@@ -9,7 +9,8 @@ Jan Krag & Thierry Lacour
 <br />Continuous Improvement Agent
 
 Note:
-Maybe some points you want to talk about
+* We work for Praqma, a consultancy company focusing on helping customers implement CoDe
+* We'll not go into that now, Lars will show up to talk about that later
                   
 >>>>NEWSECTION
 ## Who are we?
@@ -20,9 +21,7 @@ Maybe some points you want to talk about
 Note:
 * Software developer
 * Jack of all trades
-* Backline support for people at customers
-* We work for Praqma, a consultancy company focusing on helping customers implement CoDe
-* We'll not go into that now, Lars will show up to talk about that later 
+* Backline support for people at customers 
 
 >>>>NEWSECTION
 ## Who are you?
@@ -32,10 +31,11 @@ Note:
 
 Note:
 * We usually train software developers
-* The training topic is also very "devvy"
+* The training topic is also very "devy"
 * Interested to see:
   * Your reaction
   * Your ideas
+* If you're confused about the picture, it's from "The Librarian" movies, which I like more than I should.
 
 >>>>NEWSECTION
 ## Roadmap
@@ -208,7 +208,7 @@ Note:
 >>>>NEWSECTION 
 ## Go with the flow
 
-**[The GitHub Flow](https://guides.github.com/introduction/flow/)**
+## **[The GitHub Flow](https://guides.github.com/introduction/flow/)**
 
 Note:
 * Before we start working, let us propose a nice workflow
@@ -330,7 +330,6 @@ Note:
 
 * Revisit your branch and file
 * Improve it using the feedback you received
-* Revisit the pull requests
 
 Note:
 * After a healthy discussion on your issue, make some changes!
@@ -346,6 +345,7 @@ Note:
 * Merge in the pull request
 * Mention your issue in the comment
   * `"This adds a sheep. Resolves issue #3."`
+* Go find your issue
 
 Note:
 * So now our changes look really nice
