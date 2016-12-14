@@ -440,7 +440,9 @@ In this section, you will:
 
 [https://services.github.com/on-demand/github-desktop/](https://services.github.com/on-demand/github-desktop/)
 
-#### Linux users:
+#### Linux users or others that want to go shell:
+
+[https://services.github.com/on-demand/github-cli/](https://services.github.com/on-demand/github-cli/)
 
 Follow the same instructions, but use `gitg` or other client.
 Ask for help from instructors where needed.
