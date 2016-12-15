@@ -395,7 +395,7 @@ Note:
 ### The benefits of GitHub Desktop:
 
 * Remove complexity when working with Git locally
-* View your project’s history
+* View your project's history
 * Sync your repository with GitHub
 * Create Pull Requests locally
 
