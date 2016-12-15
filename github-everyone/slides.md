@@ -343,8 +343,8 @@ In this section, you will:
 
  - Create a new repository
  - Work with your repository on your local machine
- - Convert your repository into a website
- - Host and share your website
+ - Sync your changes with GitHub
+ - Create Pull requests locally
 
 >>>>NEWSLIDE
 # GitHub Desktop
