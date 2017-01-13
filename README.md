@@ -1,4 +1,6 @@
-
+---
+maintainer: lakruzz
+---
 # How to get it up and running?
 
 ## Jekyll flavor
