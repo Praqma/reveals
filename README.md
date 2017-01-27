@@ -45,6 +45,11 @@ The template is the original [`demo.html`](https://github.com/hakimel/reveal.js/
 
 That's it!
 
+## How to add HTML attributes to your markdown.
+It's all done with standard HTML comment tag like:
+`>>>>NEWSLIDE<!-- .element: data-background-color="#FF0000" -->`
+If you e.g. want to have a red background color to your slides.
+
 # How to change the themes?
 
 The current theme is selected by these two lines in the html:
