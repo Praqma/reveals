@@ -5,7 +5,7 @@
 ## My servers crashed
 ## My Env environment does not match your env
 
->>>>New section
+>>>>NEWSECTION
 # Motivation
 ## Virtualization
 ## Containers
