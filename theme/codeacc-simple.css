@@ -12,10 +12,8 @@
 
 
 body {
-      background-image: url('../code-academy/continuous-delivery-story/img/board.png');
+      background-image: url('../code-academy/res/img/board.png');
       background-repeat: no-repeat;
-      background-position: 0%;
-      background-size: cover;
-      /*background-position: 2% 96%, 80% 96%;
-      background-size: 8%,70%;*/
+      background-size:contain;
+     background-position:center; 
 }
