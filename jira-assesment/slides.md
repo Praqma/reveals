@@ -54,10 +54,7 @@ To get an understanding of who you are and what you are trying to do. So, the bi
 
 >>>>NEWSLIDE
 
-* FILL ME OUT
-* FILL ME OUT
-* FILL ME OUT
-* FILL ME OUT
+* Fill out with the details
 
 >>>>NEWSECTION
 ## Pain Points
@@ -66,10 +63,8 @@ List of biggest pain points. So we can try to determine any low hanging fruit an
 
 >>>>NEWSLIDE
 
-* FILL ME OUT
-* FILL ME OUT
-* FILL ME OUT
-* FILL ME OUT
+* Fill out with the details
+
 
 >>>>NEWSECTION
 ## Work Processes In Jira
@@ -92,10 +87,7 @@ To understand exactly what you are doing presently, so we can propose and implem
 
 >>>>NEWSLIDE
 
-* FILL ME OUT
-* FILL ME OUT
-* FILL ME OUT
-* FILL ME OUT
+* Fill out with the details
 
 >>>>NEWSECTION
 ## Findings and solutions
@@ -110,8 +102,5 @@ To define an approach that will address any findings and pain points along with 
 
 >>>>NEWSLIDE
 
-* FILL ME OUT
-* FILL ME OUT
-* FILL ME OUT
-* FILL ME OUT
+* Fill out with the details
 
