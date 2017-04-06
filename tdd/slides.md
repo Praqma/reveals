@@ -65,7 +65,9 @@ When was the last time you practiced writing code together, as a team?
  * Focus on improvement, not on completion, not on perfection.
 
 >>>>NEWSLIDE
-<section data-background-image="img/dojo.jpg">
+
+<!-- .slide: data-background-image="img/dojo.jpg"" -->
+
 # Coding Dojo
 
 >>>>NEWSLIDE
