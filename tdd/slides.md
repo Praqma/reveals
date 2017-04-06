@@ -5,8 +5,7 @@ of valuable software."
 
 >>>>NEWSLIDE
 
-![CoDe Storyline](../../shared/img/CoDeJourney/CoDeJourney.000.jpeg)<!-- .element: class="plain max" -->
-
+![CoDe Storyline](../shared/img/CoDeJourney/CoDeJourney.000.jpeg)<!-- .element: class="plain max" -->
 
 >>>>NEWSECTION
 # What is TDD?
