@@ -99,8 +99,16 @@
 					<h4 class=fragment> Open for third-party extensions and plugin integration </h4>
 				</section>
 				<section>
-					<h3> new slide for each point ^^ </h3>
+					<h3>UI overview </h3>
+					<h4> - Shows each stage and time spent  </h4>
+					<h4> - Show which commits are being built</h4>
+					<img height="360" width="520" data-src="img/pipeline.png">
  				</section>
+
+				<section>
+					<h3> Configuration as code </h3>
+					<h4> - Version control build scripts </h4>
+				</section>
 			</section>
 
 			<section>
@@ -114,7 +122,8 @@
 						<h3 style="display:inline-block;"> vs. </h3>
 						<h3 style="display:inline-block;"> <i> Scripted Pipeline </i> </h3>
 					</div>
-					<h4 style="display:inline-block;"> Declarative pipeline - predefined "declarative" sections>
+					<h4 style="display:inline-block;"> Declarative pipeline - predefined "declarative" sections </h4>
+					<h4 style="display:inline-block;"> Scripted pipeline - less restricted groovy scripting </h4>
 				</section>
 				<section>
 					<h3> Pipeline dictionary </h3>
@@ -128,7 +137,6 @@
 					<pre><code class="hljs" data-trim contenteditable>
 						pipeline {
 	agent any
-
 	stages {
 		stage('build'){
 			steps {
@@ -149,10 +157,84 @@
 }
 					</code></pre>
 				</section>
+
+				<section>
+					<h2> Jenkinsfile (scripted) example </h2>
+					<pre><code class="hljs" data-trim contenteditable>
+						node {
+	stage('build'){
+			steps {
+
+			}
+		}
+		stage('test'){
+			echo 'this is the test stage'
+		}
+		stage('deploy'){
+			when ( branch 'production')
+			echo 'this is the deploy stage'
+		}
+	}
+	}
+					</code></pre>
+				</section>
 			</section>
 
 			<section>
-				<h3> "How can i do *this* with pipelines?"
+				<h3> "How can i do *this* with pipelines?" </h3>
+			</section>
+
+			<section>
+				<section>
+					<h3> Shared Libraries </h3>
+					<h4 class=fragment highlight-green> Pros: Reusable code </h4>
+					<h4 class=fragment highlight-red> Cons: Reduced reproducability, only for scripted pipelines </h4>
+				</section>
+
+				<section data-markdown>
+					<script type=text/template>
+						## Shared library directory structure
+						```
+						+ - src
+						|	+ - Class1.groovy # classes
+						|	+ - Class2.groovy
+						|
+						+ - vars
+						|	+ - var.groovy 	# global variables
+						|	+ - method.groovy  # common functions
+						|
+						```
+					</script>
+				</section>
+
+				<section>
+					<h3> Naming conventions </h3>
+					<h4> 1. Give the file name the name of the method </h4>
+					<h4> 2. def call creates function as a step </h4>
+					<pre><code class="hljs" data-trim contenteditable>
+					def call(String gitrepo = 'jenkinsAsCode') {
+	git url: http://github.com/praqma/${gitrepo}
+}
+
+					</code></pre>
+					<h4> 3. UseCamelNotationAsNamingConvention </h4>
+
+				</section>
+
+				<section>
+					<h3> Using the shared files in your library </h3>
+					<h4> Include library with: '@Library('my_shared_library@branch/tag)' _ </h4>
+					<pre><code class="hljs" data-trim contenteditable>
+						@Library('HelpLib@master')
+node {
+	stage('CheckoutRepo') {
+		def repo = 'my-repo'
+		checkoutRepo repo // calls method with parameter
+		checkoutRepo()	// calls method with default parameter
+	}
+}
+					</code></pre>
+				</section>
 			</section>
 
 			<section >
