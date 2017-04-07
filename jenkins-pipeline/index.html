@@ -42,17 +42,26 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h2>Jenkins - Pipeline</h1>
-					<h3>Descriptive build steps</h3>
-					<img data-src="img/jenkins.png">
+					<section>
+						<h2>Jenkins - Pipeline</h1>
+						<h3>Descriptive build steps</h3>
+						<img data-src="img/jenkins.png">
+					</section>
+
+					<section>
+						<h3> Contents <h3>
+							<h4> Background </h4>
+							<h4> Benefits </h4>
+							<h4> Jenkinsfile </h4>
+							<h4> Use cases </h4>
+
+					</section>
 				</section>
 
 				<section>
 					<section>
 						<h2>Background</h2>
-						<h4>
-							Jenkins Pipeline - on the shoulders of giants.
-						</h4>
+						<h4>Jenkins Pipeline - on the shoulders of giants. </h4>
 						<img data-src="img/timeline.jpg">
 					</section>
 
@@ -86,15 +95,14 @@
 
 					<section>
 						<h2>Introducing the Jenkinsfile</h2>
-						<h4> New syntax for pipeline as code </h3>
-						<h4> 2do: ADD sample code from Jenkinsfile</3>
+						<h4>New syntax for pipeline as code </h3>
 					</section>
 			</section>
 
 			<section>
 				<section id="fragments">
 					<h2> Benefits of Pipeline </h2>
-					<h4 class=fragment> Great UI overview of each step</h4>
+					<h4 class=fragment> Great UI overview of each stage</h4>
 					<h4 class=fragment> Configuration as code easy to version control</h4>
 					<h4 class=fragment> Open for third-party extensions and plugin integration </h4>
 				</section>
@@ -107,7 +115,9 @@
 
 				<section>
 					<h3> Configuration as code </h3>
-					<h4> - Version control build scripts </h4>
+					<h4> - Version controlled pipelines </h4>
+					<h4> - Highly traceable and reproduceable </h4>
+					<img height="360" width="520" data-src="img/Jenkinsfile.png">
 				</section>
 			</section>
 
@@ -128,9 +138,12 @@
 				<section>
 					<h3> Pipeline dictionary </h3>
 					<h4 class="fragment grow"> Pipeline</h4>
-					<h4 class="fragment grow"> Stages</h4>
-					<h4 class="fragment grow"> Step</h4>
+					<h4 class="fragment grow"> Agent</h4>
+					<h4 class="fragment grow"> Node</h4>
+					<h4 class="fragment grow"> Stage</h4>
+					<h4 class="fragment grow"> Parallel</h4>
 					<h4 class="fragment grow"> When</h4>
+					<h4 class="fragment grow"> Steps</h4>
 				</section>
 				<section>
 					<h2> Jenkinsfile (declarative) example </h2>
@@ -141,13 +154,9 @@
 		stage('build'){
 			steps {
 				echo 'this is the build stage'
-				script {
-					make
-				}
+				sh 'make check || true'
+				junit '**/target/*.xml'
 			}
-		}
-		stage('test'){
-			echo 'this is the test stage'
 		}
 		stage('deploy'){
 			when ( branch 'production')
@@ -161,34 +170,66 @@
 				<section>
 					<h2> Jenkinsfile (scripted) example </h2>
 					<pre><code class="hljs" data-trim contenteditable>
-						node {
-	stage('build'){
-			steps {
-
-			}
-		}
-		stage('test'){
-			echo 'this is the test stage'
-		}
-		stage('deploy'){
-			when ( branch 'production')
-			echo 'this is the deploy stage'
+						def platforms = ['safari', 'chrome', 'firefox', 'edge']
+	for(x in platforms) {
+		node(x){
+			sh "echo testing in ${x}"
+			sh runTests.sh
 		}
 	}
-	}
+}
 					</code></pre>
 				</section>
 			</section>
 
 			<section>
-				<h3> "How can i do *this* with pipelines?" </h3>
+				<section>
+					<h3> "How can I do *this* with pipelines?" </h3>
+				</section>
+				<section>
+					<h3> Docker as node - scripted  </h3>
+					<h4> - Avoid installing tools and software </h4>
+					<h4> - Easier to reproduce environment </h4>
+					<pre><code class="hljs" data-trim contenteditable>
+						docker.image('golang:1.8').inside {
+		git scm
+		sh './gradlew build'
+}
+					</code></pre>
+					<h4> 'Inside' will replace 'node' </h4>
+					<h4> Use docker hub or local Registry </h4>
+					<pre><code class="hljs" data-trim contenteditable>
+						docker.withRegistry('https://docker.mycorp.com/') {
+    	docker.image('mygolang:1.8').inside {
+   		git scm
+   		sh './gradlew build'
+	}
+}
+					</code></pre>
+				</section>
+
+				<section>
+					<h3> Docker as agent in declarative pipelines</h3>
+					<pre><code class="hljs" data-trim contenteditable>
+					agent {
+	docker "ubuntu:16.04"
+}
+					</code></pre>
+					<nl>
+					<h4> from local Dockerfile: </h4>
+					<pre><code class="hljs" data-trim contenteditable>
+					agent {
+	dockerfile true
+}
+					</code></pre>
+				</section>
 			</section>
 
 			<section>
 				<section>
 					<h3> Shared Libraries </h3>
 					<h4 class=fragment highlight-green> Pros: Reusable code </h4>
-					<h4 class=fragment highlight-red> Cons: Reduced reproducability, only for scripted pipelines </h4>
+					<h4 class=fragment highlight-red> Cons: Reduced reproducability </h4>
 				</section>
 
 				<section data-markdown>
@@ -210,15 +251,13 @@
 				<section>
 					<h3> Naming conventions </h3>
 					<h4> 1. Give the file name the name of the method </h4>
-					<h4> 2. def call creates function as a step </h4>
+					<h4> 2. def call creates function as a step when called </h4>
 					<pre><code class="hljs" data-trim contenteditable>
-					def call(String gitrepo = 'jenkinsAsCode') {
-	git url: http://github.com/praqma/${gitrepo}
+					def call(String gitrepo = 'jenkinsAsCodeReference') {
+	git url: "http://github.com/praqma/${gitrepo}.git"
 }
-
 					</code></pre>
 					<h4> 3. UseCamelNotationAsNamingConvention </h4>
-
 				</section>
 
 				<section>
@@ -226,6 +265,7 @@
 					<h4> Include library with: '@Library('my_shared_library@branch/tag)' _ </h4>
 					<pre><code class="hljs" data-trim contenteditable>
 						@Library('HelpLib@master')
+
 node {
 	stage('CheckoutRepo') {
 		def repo = 'my-repo'
@@ -234,6 +274,16 @@ node {
 	}
 }
 					</code></pre>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h3> Limitations </h3>
+				</section>
+
+				<section>
+					<h3> Maturity, pretested plugin, +++ </h3>
 				</section>
 			</section>
 
