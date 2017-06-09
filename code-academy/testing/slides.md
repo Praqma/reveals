@@ -1,3 +1,9 @@
+Note: 
+http://slides.com/tasza/the-art-of-software-testing/fullscreen
+http://www.computerworld.com/article/2515435/app-development/moth-in-the-machine--debugging-the-origins-of--bug-.html
+
+
+>>>>NEWSLIDE
 # The story so far
 I don't know if I broke my code
 >>>>NEWSECTION
@@ -7,6 +13,8 @@ I don't know if I broke my code
 - The test square / triangle / iceberg
 - Fast feedback loop
 - Metrics
+
+
 
 >>>>NEWSECTION
 # Why are we testing
@@ -18,11 +26,20 @@ Maybe exercise: Name reasons
 - Mitigate risk
 - Increase speed
 - Document functionality
-- 
+- Reduce bugs
+
+>>>>NEWSLIDE
+
+![](./img/qeS2gyB.png) 
 
 >>>>NEWSLIDE
 # Test it all!
 Not really, too expensive
+
+* the number of possible inputs is very large
+* the number of possible outputs is very large
+* the number of paths through the software is very large
+* the software specification is subjective
 
 >>>>NEWSLIDE
 # The testing iceberg
