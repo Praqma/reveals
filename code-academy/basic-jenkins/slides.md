@@ -105,14 +105,35 @@ Note:  Let's talk about the difference between CI and CoDe
 # Hello, Jenkins World!
 
 >>>>NEWSLIDE
+## Workflow
+![Image of old pipelines](img/old.pipeline.png)
+
+
+>>>>NEWSLIDE
+## Pipelines
+![Image of multibranch pipeline](img/a.multibranch.pipeline.png)
+
+>>>>NEWSLIDE
+## Terminology
+* Job
+* Build
+* Master / nodes
+* Schedule
+* Pipeline
+* Plugins
+* Jenkinsfile (Build_as_code)
+
+>>>>NEWSLIDE
 ![Image of Jenkinsbot](img/jenkinsbot.jpeg)
 
 >>>>NEWSLIDE
 
 ## Let's get to work!
+Installing Jenkins on Ubuntu 16.04
 
-    sudo apt-get install jenkins
+https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-16-04
 
+###!NB No need for Step 3 - Opening the Firewall    
 >>>>NEWSLIDE
 
 ## Let's see what happened!
@@ -133,13 +154,67 @@ Note:  Let's talk about the difference between CI and CoDe
     # What happened?
 
 >>>>NEWSECTION
+# Jenkins setup
+
+>>>>NEWSLIDE
+## Credentials
+```
+ubuntu@codeacgbg:~$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/ubuntu/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/ubuntu/.ssh/id_rsa.
+Your public key has been saved in /home/ubuntu/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:uuO6VOGaQ9uIfhchgkpPz0PCGNAIo1OiM49jnvTfFq4 ubuntu@codeacgbg
+```
+
+>>>>NEWSLIDE
+## Add credentials to Jenkins
+```
+ubuntu@codeacgbg:~$ cat /home/ubuntu/.ssh/id_rsa
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAwM1h3G70DCXaV85w30h2E8w1JKEFU46vf+vY562RU0tyzUXi
+pj53ojajcMfkrxlq+DaoR0KC+i0dotrNVVROCsZI9mFQ0Yc6/7+nIZB6a4oGkONs
+UuGIlY9dJ7Oo5j3FGUMp3/HpORZgF+2Qqq/GkYSTxW8kp01UUAWbY5csAaQyfn81
+....
+dZ4drQKBgQDz4Ywu9i2M8mFAOIbTAizCouPihZd66xHfESVO4mb1ny36xRwyth4M
+Swnw8MsrlFJWZ/GAMyFRKDXrQTSJk6ygk/xCFhnCP28RvLF3Eqo79lxCTkJ3lk5B
+niQ311mJ4wTCFtzYV5IEbwsbDt4OVpf1tytrXLwCCrOI8eMtnzTl3w==
+-----END RSA PRIVATE KEY-----
+```
+>>>>NEWSLIDE
+![Adding credentials to Jenkins](img/jenkins.add.credentials.png)
+
+>>>>NEWSLIDE
+## adding credentials to GitHub
+```
+ubuntu@codeacgbg:~$ cat .ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAzWHcbvQMJdpXznDfSHYTzDUkoQVTjq9/69jnrZFTS3LNReKmPneiNqNwx+SvGWr4NqhHQoL6LR2i2s1VVE4Kxkj2YVDRhzr/v6chkHprigaQ42xS4YiVj10ns6jmPcUZQynf8ek5FmAX7ZCqr8aRhJPFbySnTVRQBZtjlywBpDJ+fzX0CciYY21qqqaKRdDrbf6zdQpPJvHaAGNFTeJihVhVJzeRrCoSsRw+bvm1xPFpE1RC8UGRKvziVfpXLCswZiqhrdbnyOS4dBBcOjVsfphwuvhVDq0XtaNCbC7WqTJdpQLXB9ZQzPRkclN+Wsk1RZTsrbFjGF845jzxlyM9 ubuntu@codeacgbg
+```
+>>>>NEWSLIDE
+## adding credentials to GitHub
+![credentials](img/github.credentials.png)
+
+>>>>NEWSECTION
 # Continuous Integration
 
 ## Is my code good enough to share with my team?
 
 >>>>NEWSLIDE
-## Let's "build" adventure time!
-<img src="img/Original_Finn.png" alt="Platforms" width=20% />
+## Let's "build" roman Numerals
+
+>>>>NEWSLIDE
+
+## go fork the repo
+![](img/project.png)
+
+>>>>NEWSLIDE
+
+## go fork the repo
+![](img/at.fork.png)
+
 
 >>>>NEWSLIDE
 
@@ -149,64 +224,12 @@ Note:  Let's talk about the difference between CI and CoDe
 * Integrate
 * Run tests
 
+Not doing CI just yet, only building for today.
+
 >>>>NEWSLIDE
 ## A Job is an atomic unit of automation work
 <img src="img/jenkins.at.newjob.png" alt="Platforms" width=80% />
 
 >>>>NEWSLIDE
 
-<img src="img/jenkins.at.build.png" alt="Platforms" width=80% />
-
->>>>NEWSLIDE
-
-<img src="img/jenkins.at.vcs.png" alt="Platforms" width=80% />
-
->>>>NEWSLIDE
-
-<img src="img/jenkins.at.project.png" alt="Platforms" width=80% />
-
-Note:
-Here we want to show:
-
-  * Build job
-  * Workspac
-
->>>>NEWSLIDE
-
-<img src="img/jenkins.at.console.png" alt="Platforms" width=80% />
-
->>>>NEWSLIDE
-# Ok, let's actually do a test
-
->>>>NEWSLIDE
-
-<img src="img/jenkins.at.buildstep.png" alt="Platforms" width=80% />
-<img src="img/jenkins.at.console.pass.png" alt="Platforms" width=80% />
-
->>>>NEWSLIDE
-# But can it fail?
-## Now is the time to create your own fork...
-
->>>>NEWSLIDE
-
-<img src="img/at.fork.png" alt="Platforms" width=80% />
-<img src="img/at.forked.png" alt="Platforms" width=80% />
-
->>>>NEWSLIDE
-
-<img src="img/at.edit.fail.png" alt="Platforms" width=80% />
-
->>>>NEWSLIDE
-
-## Remember to update the job urls!
-<img src="img/jenkins.at.update.url.png" alt="Platforms" width=80% />
-
->>>>NEWSLIDE
-
-<img src="img/jenkins.at.build.fail.png" alt="Platforms" width=40% />
-<img src="img/jenkins.at.build.fail.console.png" alt="Platforms" width=80% />
-
->>>>NEWSLIDE
-
-## Task 1: make the build pass again
-## Task 2: make the build run automatically
+https://github.com/praqma-training/romannumerals/blob/master/README.md
