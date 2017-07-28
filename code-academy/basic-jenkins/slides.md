@@ -57,6 +57,7 @@ preference to the shorter timescale."
 
 > Simplicity--the art of maximizing the amount
 of work not done--is essential.
+> “Our time is always more valuable than machines’ time” 
 
 ## Is my team:
 
