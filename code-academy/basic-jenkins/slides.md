@@ -7,7 +7,7 @@
 >>>>NEWSLIDE
 ## Contents
 
-* Build automation
+* Build automation: _What is CI?_
 * Hello, Jenkins World!
 * CI: Fetching and building code
 
@@ -57,7 +57,6 @@ preference to the shorter timescale."
 
 > Simplicity--the art of maximizing the amount
 of work not done--is essential.
-> “Our time is always more valuable than machines’ time” 
 
 ## Is my team:
 
@@ -76,6 +75,8 @@ of work not done--is essential.
 
 Not bad, eh?
 
+> "Our time is always more valuable than machines' time"
+
 >>>>NEWSECTION
 
 ##  Let's have a chat about the difference between CI and CoDe...
@@ -84,11 +85,6 @@ Not bad, eh?
 ![Image of Jenkinsbot](../../../shared/img/code-story.bare.png)
 
 Note:  Let's talk about the difference between CI and CoDe
-
-
->>>>NEWSLIDE
-
-##  So for both CI and CoDe...we need an automation platform!
 
 >>>>NEWSLIDE
 
@@ -106,15 +102,6 @@ Note:  Let's talk about the difference between CI and CoDe
 # Hello, Jenkins World!
 
 >>>>NEWSLIDE
-## Workflow
-![Image of old pipelines](img/old.pipeline.png)
-
-
->>>>NEWSLIDE
-## Pipelines
-![Image of multibranch pipeline](img/a.multibranch.pipeline.png)
-
->>>>NEWSLIDE
 ## Terminology
 * Job
 * Build
@@ -125,7 +112,41 @@ Note:  Let's talk about the difference between CI and CoDe
 * Jenkinsfile (Build_as_code)
 
 >>>>NEWSLIDE
+## Terminology explained
+
+The Jenkins *master* is an advanced *scheduler* that on basis of *Job definitions* monitor and executes *builds* on *nodes*.
+A *job* can be defined in many ways, as *Standard job*, through *JobDSL* or through the new *Jenkins Pipeline*.
+
+>>>>NEWSLIDE
+## Workflow of standard jobs
+![Image of old pipelines](img/old.pipeline.png)
+
+
+>>>>NEWSLIDE
+## Pipelines
+![Image of multibranch pipeline](img/a.multibranch.pipeline.png)
+
+>>>>NEWSLIDE
 ![Image of Jenkinsbot](img/jenkinsbot.jpeg)
+
+
+>>>>NEWSLIDE
+## Architecture
+![Image of Jenkinsbot](img/Jenkins-architecture-basic.png)
+
+
+>>>>NEWSLIDE
+## Architecture - Detailed
+![Image of Jenkinsbot](img/Jenkins-architecture.png)
+
+>>>>NEWSECTION
+## Inside Jenkins
+
+>>>>NEWSLIDE
+## Jenkins UI
+
+![Jenkins UI](img/jenkins.welcome.decorated.png)
+
 
 >>>>NEWSLIDE
 
@@ -143,9 +164,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubunt
     # Create a job
     # What happened?
 
->>>>NEWSLIDE
 
-<img src="img/jenkins.welcome.png" alt="Platforms" width=80% />
 
 >>>>NEWSLIDE
 # OK, now it's your turn!

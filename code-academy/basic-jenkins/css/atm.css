@@ -11,3 +11,7 @@
 box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
 	
 }
+
+.reveal em {
+     color: #f98d2c;
+}
