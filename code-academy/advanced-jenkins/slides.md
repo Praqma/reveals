@@ -120,3 +120,10 @@ Create a new job in Jenkins where you select the 'Multi-branch pipeline' type.
 [Jenkins.io](https://jenkins.io/doc/book/pipeline/multibranch/) has a nice guide on how to get going.
 
 [A better pipeline](http://localhost:8080/view/Pipelines/job/BetterPipeline/)
+
+
+>>>>NEWSECTION
+# Pretested integration flow
+
+>>>>NEWSECTION
+# Docker
