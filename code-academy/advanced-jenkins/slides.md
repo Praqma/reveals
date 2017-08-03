@@ -8,11 +8,12 @@ Picture of Jenkins
 >>>>NEWSLIDE
 # Introducing Pipelines
 No more pointy pointy, cliky cliky
+![](img/pointclick.jpeg)
 
 >>>>NEWSLIDE
 ## Reasons
-* It's just code
-* Traceability (how did the pipeline looked like in version 1.2?)
+* It's just code, put it with your source is!
+* Traceability *(how did the pipeline looked like in version 1.2?)*
 * Better support for parallel executions
 
 >>>>NEWSLIDE
@@ -91,7 +92,7 @@ Two job-types for pipelines
 Create a new job in Jenkins. Give it a good name and select the 'pipeline' type
 
 [Getting Started](https://jenkins.io/doc/book/pipeline/getting-started/) provides nice help for those new to this.
-
+![](img/new-item-creation.png)
 
 >>>>NEWSLIDE
 # Making your first pipeline 
