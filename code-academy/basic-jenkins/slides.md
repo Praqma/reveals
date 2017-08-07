@@ -224,17 +224,11 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAzWHcbvQMJdpXznDfSHYTzDUkoQVTjq9/69jnrZFT
 ## Is my code good enough to share with my team?
 
 >>>>NEWSLIDE
-## Let's "build" roman Numerals
-
+## Let's "build" roman Gilded Rose
 >>>>NEWSLIDE
 
 ## go fork the repo
-![](img/project.png)
-
->>>>NEWSLIDE
-
-## go fork the repo
-![](img/at.fork.png)
+![](img/github.fork.png)
 
 
 >>>>NEWSLIDE
@@ -249,8 +243,9 @@ Not doing CI just yet, only building for today.
 
 >>>>NEWSLIDE
 ## A Job is an atomic unit of automation work
-<img src="img/jenkins.at.newjob.png" alt="Platforms" width=80% />
+<img src="img/jenkins.job.png" alt="Platforms" width=80% />
 
 >>>>NEWSLIDE
-
-https://github.com/praqma-training/romannumerals/blob/master/README.md
+### Now it's your turn
+* Work on exercises 0 to *4.5 implementing the Gilded Rose*
+https://github.com/praqma-training/gildedrose/blob/master/README.md
