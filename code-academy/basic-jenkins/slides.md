@@ -13,7 +13,7 @@
 
 >>>>NEWSECTION
 
-##Why bother?
+## Why bother?
 
 * *"It works on my machine"*
 * Environment differences
@@ -36,9 +36,9 @@ of valuable software."
 
 ## Do my changes work:
 
-  * on someone else's machine?
-  * with everyone else's changes?
-  * on all platforms?
+  * On someone else's machine?
+  * With everyone else's changes?
+  * On all platforms?
 
 
 >>>>NEWSLIDE
@@ -68,10 +68,11 @@ of work not done--is essential.
 
 ## So, an automation platform helps us:
 
- * ensure our software is working
- * increase our development efficiency
- * work in teams
- * single source of truth
+ * Ensure our software is working
+ * Increase our development efficiency
+ * Work in teams
+ * Single source of truth
+ * Shorten the feedback loop
 
 Not bad, eh?
 
