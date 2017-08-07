@@ -4,10 +4,10 @@
 # Jenkins revisited
 Picture of Jenkins
 
-
 >>>>NEWSLIDE
 # Introducing Pipelines
 No more pointy pointy, cliky cliky
+
 ![](img/pointclick.jpeg)
 
 >>>>NEWSLIDE
@@ -95,22 +95,27 @@ Create a new job in Jenkins. Give it a good name and select the 'pipeline' type
 ![](img/new-item-creation.png)
 
 >>>>NEWSLIDE
-# Making your first pipeline 
+# Making your first pipeline
 ## hello world + checkout of sourcecode.
 
 >>>>NEWSECTION
-# Stages and pack/unpack
+# Stages and archiving
 
 >>>>NEWSLIDE
 # Stages
 
+>>>>NEWSLIDE
+# Archiving
+
 
 >>>>NEWSECTION
-# Parallel and archiving
+# Parallel and pack/unpack
 
 >>>>NEWSLIDE
+# Parallel
 
-
+>>>>NEWSECTION
+# Pack/unpack
 
 >>>>NEWSECTION
 # Multibranch pipeline
