@@ -1,7 +1,31 @@
 # Jenkins Pipelines
 
 >>>>NEWSLIDE
+# Jenkins revisited
+Picture of Jenkins
+
+
+>>>>NEWSLIDE
+# Introducing Pipelines
+No more pointy pointy, cliky cliky
+![](img/pointclick.jpeg)
+
+>>>>NEWSLIDE
+## Reasons
+* It's just code, put it with your source is!
+* Traceability *(how did the pipeline looked like in version 1.2?)*
+* Better support for parallel executions
+
+>>>>NEWSLIDE
+# Jenkins Pipeline
 [Jenkins Pipeline](https://jenkins.io/doc/book/pipeline/) is a suite of plugins which supports implementing and integrating continuous delivery pipelines in Jenkins.
+
+>>>>NEWSLIDE
+# Vocabulary
+
+* Stage
+* Node
+* Step
 
 >>>>NEWSLIDE
 2 Approaches:
@@ -53,6 +77,8 @@ node {
     }
 }
 ```
+
+
 >>>>NEWSLIDE
 Two job-types for pipelines
 
@@ -66,14 +92,28 @@ Two job-types for pipelines
 Create a new job in Jenkins. Give it a good name and select the 'pipeline' type
 
 [Getting Started](https://jenkins.io/doc/book/pipeline/getting-started/) provides nice help for those new to this.
+![](img/new-item-creation.png)
 
-[My First Pipeline](http://localhost:8080/view/Pipelines/job/FirstPipeline/)
+>>>>NEWSLIDE
+# Making your first pipeline 
+## hello world + checkout of sourcecode.
 
+>>>>NEWSECTION
+# Stages and pack/unpack
+
+>>>>NEWSLIDE
+# Stages
+
+
+>>>>NEWSECTION
+# Parallel and archiving
+
+>>>>NEWSLIDE
 
 
 
 >>>>NEWSECTION
-# A better pipeline
+# Multibranch pipeline
 
 >>>>NEWSLIDE
 Create a new job in Jenkins where you select the 'Multi-branch pipeline' type.
@@ -82,10 +122,9 @@ Create a new job in Jenkins where you select the 'Multi-branch pipeline' type.
 
 [A better pipeline](http://localhost:8080/view/Pipelines/job/BetterPipeline/)
 
->>>>NEWSECTION
-## Automated git flow
-- Problem: the master branch broke, I need to wait for someone to fix it.
-- Solution: Protect the master branch with a Jenkins Pipeline that only accepts changes that build.
 
->>>>NEWSLIDE
-##pretested integration setup
+>>>>NEWSECTION
+# Pretested integration flow
+
+>>>>NEWSECTION
+# Docker
