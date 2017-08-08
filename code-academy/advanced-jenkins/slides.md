@@ -13,7 +13,7 @@ No more pointy pointy, cliky cliky
 >>>>NEWSLIDE
 ## Reasons
 * It's just code, put it with your source is!
-* Traceability *(how did the pipeline looked like in version 1.2?)*
+* Traceability *(how did the pipeline look in version 1.2?)*
 * Better support for parallel executions
 
 >>>>NEWSLIDE
@@ -130,6 +130,37 @@ Create a new job in Jenkins where you select the 'Multi-branch pipeline' type.
 
 >>>>NEWSECTION
 # Pretested integration flow
+
+>>>>NEWSLIDE
+
+The end goal:
+- Our _master_ branch is _pristine_
+- No bad code goes to master!
+
+>>>>NEWSLIDE
+
+The plan:
+- Write-protect the master branch
+- Have developers flag when they have code they want _integrated_
+- Have Jenkins listen for branches to integrate
+- Jenkins decides ( through tests ) whether or not the code can go to master
+
+>>>>NEWSLIDE
+
+The tools:
+- Pretested Integration Plugin
+- Listen for branches named `ready/**`
+- Integrate into master branch
+
+>>>>NEWSLIDE
+![CoDe:U Branching Strategy](img/code-u-branching.png)
+<!--- TODO Take Thierrys Git Phlow drawing instead of this --!>
+
+>>>>NEWSLIDE
+![PIP Configuration](img/pip-config.png)
+
+>>>>NEWSLIDE
+![PIP Configuration cont.](img/pip-config2.png)
 
 >>>>NEWSECTION
 # Docker
