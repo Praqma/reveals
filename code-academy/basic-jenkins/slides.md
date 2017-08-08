@@ -83,7 +83,7 @@ Not bad, eh?
 ##  Let's have a chat about the difference between CI and CoDe...
 >>>>NEWSLIDE
 
-![Image of Jenkinsbot](../../../shared/img/code-story.bare.png)
+![Image of Jenkinsbot](https://github.com/Praqma/reveals/blob/gh-pages/shared/img/code-story.bare.png?raw=true)
 
 Note:  Let's talk about the difference between CI and CoDe
 
