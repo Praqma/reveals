@@ -1,8 +1,5 @@
 # Jenkins Pipelines
-
->>>>NEWSLIDE
-# Jenkins revisited
-Picture of Jenkins
+![](img/jenkinslogo.png)
 
 >>>>NEWSLIDE
 # Introducing Pipelines
@@ -12,9 +9,10 @@ No more pointy pointy, cliky cliky
 
 >>>>NEWSLIDE
 ## Reasons
-* It's just code, put it with your source is!
+* Configuration as code, put it with your source is!
 * Traceability *(how did the pipeline look in version 1.2?)*
 * Better support for parallel executions
+* Better UI overview of each stage
 
 >>>>NEWSLIDE
 # Jenkins Pipeline
@@ -28,94 +26,108 @@ No more pointy pointy, cliky cliky
 * Step
 
 >>>>NEWSLIDE
-2 Approaches:
+## 2 Approaches:
 
 Declarative or Scripted
 
->>>>NEWSLIDE
-Declarative Jenkinsfile
-```
-pipeline {
-    agent any
+**We chose scripted**
 
-    stages {
-        stage('Build') {
-            steps {
-                sh 'make'
-            }
-        }
-        stage('Test'){
-            steps {
-                sh 'make check'
-                junit 'reports/**/*.xml'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                sh 'make publish'
-            }
-        }
-    }
-}
-```
 >>>>NEWSLIDE
-Scripted Jenkinsfile
+## UI
+Showing the stages of the pipeline
+![](img/pipeline.png)
+
+>>>>NEWSLIDE
+## Scripted Jenkinsfile
 
 ```
 node {
     stage('Build') {
         sh 'make'
     }
-
+}
+```
+>>>>NEWSLIDE
+## Scripted Jenkinsfile
+Several nodes
+```
+node('linux') {
+    stage('Build') {
+        sh 'make'
+    }
+}
+node('linux&&ubuntu') {
     stage('Test') {
         sh 'make check'
         junit 'reports/**/*.xml'
     }
-
+}
+node('linux&&deployment'){
     stage('Deploy') {
         sh 'make publish'
     }
 }
 ```
 
-
 >>>>NEWSLIDE
 Two job-types for pipelines
 
 - Pipeline
+
+![](img/job.pipeline.png)
+
 - Multi-branch Pipeline
+
+![](img/job.multibranch.pipeline.png)
 
 >>>>NEWSECTION
 # My first pipeline
 
 >>>>NEWSLIDE
-Create a new job in Jenkins. Give it a good name and select the 'pipeline' type
+Create a new job in Jenkins.
+
+Give it a good name and select the 'pipeline' type
 
 [Getting Started](https://jenkins.io/doc/book/pipeline/getting-started/) provides nice help for those new to this.
 ![](img/new-item-creation.png)
 
 >>>>NEWSLIDE
-# Making your first pipeline
-## hello world + checkout of sourcecode.
-
->>>>NEWSECTION
-# Stages and archiving
-
->>>>NEWSLIDE
-# Stages
-
->>>>NEWSLIDE
-# Archiving
+## Making your first pipeline
+Make exercise 5+6 in the [Gilded rose repository](https://github.com/praqma-training/gildedrose).
 
 
 >>>>NEWSECTION
-# Parallel and pack/unpack
+## Additional methods:
+- Archiving
 
->>>>NEWSLIDE
-# Parallel
+```
+// archiving the jar files in the target folder
+archiveArtifacts 'target/*.jar'
 
->>>>NEWSECTION
-# Pack/unpack
+```
+- Parallel
+```
+// Define
+def builders = [
+	"build": {
+		node {}
+	},
+	"javadoc": {
+	node {}
+	}
+]
+stage('parallel'){
+	parallel builders
+}
+
+```
+
+- Pack/unpack
+```
+// archiving the jar files in the target folder
+archiveArtifacts 'target/*.jar'
+
+```
 
 >>>>NEWSECTION
 # Multibranch pipeline
