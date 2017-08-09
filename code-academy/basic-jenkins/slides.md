@@ -156,7 +156,7 @@ Installing Jenkins on Ubuntu 16.04
 
 https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-16-04
 
-###!NB No need for Step 3 - Opening the Firewall    
+**!NB No need for Step 3 - Opening the Firewall**
 >>>>NEWSLIDE
 
 ## Let's see what happened!
@@ -224,7 +224,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAzWHcbvQMJdpXznDfSHYTzDUkoQVTjq9/69jnrZFT
 ## Is my code good enough to share with my team?
 
 >>>>NEWSLIDE
-## Let's "build" roman Gilded Rose
+## Let's "build" Gilded Rose
 >>>>NEWSLIDE
 
 ## go fork the repo
