@@ -247,5 +247,7 @@ Not doing CI just yet, only building for today.
 
 >>>>NEWSLIDE
 ### Now it's your turn
-* Work on exercises 0 to *4.5 implementing the Gilded Rose*
+
+* Work on exercises 0 to 4.5 implementing the Gilded Rose
+
 https://github.com/praqma-training/gildedrose/blob/master/README.md
