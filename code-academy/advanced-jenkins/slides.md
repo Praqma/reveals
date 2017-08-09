@@ -105,7 +105,32 @@ Make exercise 5+6 in the [Gilded rose repository](https://github.com/praqma-trai
 archiveArtifacts 'target/*.jar'
 
 ```
+
+
+>>>>NEWSLIDE
+## Additional methods:
+- Docker
+
+```
+node{
+withDockerContainer('ubuntu:latest') {
+    sh 'echo "hello world"'
+}}
+
+```
+
+>>>>NEWSECTION
+## Multibranch pipeline
+
+Creates a set of Pipeline projects according to detected branches in one SCM repository.
+
+So every branch on your remote becomes a pipeline. Just push and it will be triggered!
+
+
+>>>>NEWSECTION
+## Advanced methods
 - Parallel
+
 ```
 // Define
 def builders = [
@@ -122,23 +147,12 @@ stage('parallel'){
 
 ```
 
-- Pack/unpack
+- Stash/unstash
 ```
 // archiving the jar files in the target folder
 archiveArtifacts 'target/*.jar'
 
 ```
-
->>>>NEWSECTION
-# Multibranch pipeline
-
->>>>NEWSLIDE
-Create a new job in Jenkins where you select the 'Multi-branch pipeline' type.
-
-[Jenkins.io](https://jenkins.io/doc/book/pipeline/multibranch/) has a nice guide on how to get going.
-
-[A better pipeline](http://localhost:8080/view/Pipelines/job/BetterPipeline/)
-
 
 >>>>NEWSECTION
 # Pretested integration flow
@@ -173,6 +187,3 @@ The tools:
 
 >>>>NEWSLIDE
 ![PIP Configuration cont.](img/pip-config2.png)
-
->>>>NEWSECTION
-# Docker
