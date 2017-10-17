@@ -1,7 +1,10 @@
 # Jenkins Pipelines
 ![](img/jenkinslogo.png)<!-- .element height="30%" width="30%" -->
 
->>>>NEWSLIDE
+
+
+
+>>>>NEWSECTION
 ## Introducing Pipelines
 No more pointy pointy, cliky cliky
 
@@ -36,51 +39,106 @@ No more pointy pointy, cliky cliky
 
 **Today we will use declarative syntax**
 
+
 >>>>NEWSLIDE
-## UI
-Showing the stages of the pipeline
+## Declarative Jenkinsfile
+
+```
+pipeline {
+    agent any
+    stages {
+        stage ('Hello'){
+            steps{
+                sh "echo 'Hello World'"
+            }
+        }
+    }
+}
+```
+
+
+>>>>NEWSLIDE
+## Vocabulary
+
+* Agent (By label, docker, ++)
+* Stage (describes a stage of this Pipeline)
+* Steps (describes the steps to be run in this stage)
+
+>>>>NEWSLIDE
+## The stages of the pipeline
 ![](img/pipeline.png)
 
 >>>>NEWSLIDE
-## Scripted Jenkinsfile
-
+## Declarative Jenkinsfile
+Several stages
 ```
-node {
-    stage('Build') {
-        sh 'make'
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
     }
 }
 ```
 
+
+
+
+
+
+>>>>NEWSECTION
+# Your first pipeline
 
 >>>>NEWSLIDE
-# Vocabulary
+## Exercise: Create a pipeline job in Jenkins.
 
-* Stage
-* Node
-* Step
+```
+pipeline {
+    agent any
+    stage ('Hello'){
+        echo 'Hello World'
+    }
+}
+```
+Give it a good name and select the 'pipeline' type.
+[Getting Started](https://jenkins.io/doc/book/pipeline/getting-started/) provides nice help for those new to this.
+![](img/new-item-creation.png)
 
 >>>>NEWSLIDE
-## Scripted Jenkinsfile
-Several nodes
+## Additional methods:
+- Archiving
+
 ```
-node('linux') {
-    stage('Build') {
-        sh 'make'
-    }
-}
-node('linux&&ubuntu') {
-    stage('Test') {
-        sh 'make check'
-        junit 'reports/**/*.xml'
-    }
-}
-node('linux&&deployment'){
-    stage('Deploy') {
-        sh 'make publish'
-    }
-}
+// archiving the jar files in the target folder
+archiveArtifacts 'target/*.jar'
+
 ```
+
+>>>>NEWSLIDE
+## Exercise: make your first pipeline
+Do exercise **5,6,7** in the [Embedded Project repository](https://github.com/praqma-training/embeddedproject).
+
+
+
+
+
+
+>>>>NEWSECTION
+## Multibranch pipelines
 
 >>>>NEWSLIDE
 Two job-types for pipelines
@@ -93,132 +151,54 @@ Two job-types for pipelines
 
 ![](img/job.multibranch.pipeline.png)
 
->>>>NEWSECTION
-# Your first pipeline
-
->>>>NEWSLIDE
-Create a new job in Jenkins.
-
-Give it a good name and select the 'pipeline' type
-
-[Getting Started](https://jenkins.io/doc/book/pipeline/getting-started/) provides nice help for those new to this.
-![](img/new-item-creation.png)
-
->>>>NEWSLIDE
-## Making your first pipeline
-Do exercise **5,6,7** in the [Embedded Project repository](https://github.com/praqma-training/embeddedproject).
-
-
->>>>NEWSECTION
-## Additional methods:
-- Archiving
-
-```
-// archiving the jar files in the target folder
-archiveArtifacts 'target/*.jar'
-
-```
-
-
->>>>NEWSLIDE
-## Additional methods:
-- Docker
-
-```
-node{
-withDockerContainer('ubuntu:latest') {
-    sh 'echo "hello world"'
-}}
-
-```
-
-or
-
-```
-node{
-sh 'docker run -i --rm --name my-maven-project -v "$PWD":/usr/src/mymaven -w /usr/src/mymaven maven:3-jdk-8 mvn -Dmaven.test.failure.ignore clean package'
-}
-```
 
 >>>>NEWSLIDE
 
-##Exercises 7+8
-
-* [7](https://github.com/praqma-training/gildedrose#7-archiving)
-* [8](https://github.com/praqma-training/gildedrose#8-dockerize-this)
-
-
->>>>NEWSECTION
-## Multibranch pipeline
+##Exercise 8 - Multibranch pipelines
 
 Creates a set of Pipeline projects according to detected branches in one SCM repository.
 
 So every branch on your remote becomes a pipeline. Just push and it will be triggered!
 
-
->>>>NEWSLIDE
-
-##Exercises 9
-
 * [9](https://github.com/praqma-training/gildedrose#9-multibranch-pipeline)
 
+
+
+
+
 >>>>NEWSECTION
-## Advanced methods
-- Parallel
+
+# Docker and Jenkins
+
+>>>>NEWSLIDE
+## Simple docker
 
 ```
-// Define
-def builders = [
-	"build": {
-		node {}
-	},
-	"javadoc": {
-	node {}
-	}
-]
-stage('parallel'){
-	parallel builders
+pipeline {
+    agent {
+        docker { image 'node:7-alpine' }
+    }
+    ...
 }
-
 ```
 
-- Stash/unstash
-```
-// archiving the jar files in the target folder
-archiveArtifacts 'target/*.jar'
+>>>>NEWSLIDE
+## Docker with arguments
 
 ```
-
->>>>NEWSECTION
-# Pretested integration flow
-
->>>>NEWSLIDE
-
-The end goal:
-- Our _master_ branch is _pristine_
-- No bad code goes to master!
-
->>>>NEWSLIDE
-
-The plan:
-- Write-protect the master branch
-- Have developers flag when they have code they want _integrated_
-- Have Jenkins listen for branches to integrate
-- Jenkins decides ( through tests ) whether or not the code can go to master
+pipeline {
+    agent {
+        docker {
+            image 'maven:3-alpine'
+            args '-v $HOME/.m2:/root/.m2'
+        }
+    }
+    ...
+}
+```
 
 >>>>NEWSLIDE
 
-The tools:
-- Pretested Integration Plugin
-- Listen for branches named `ready/**`
-- Integrate into master branch
+##Exercises 9 - Dockerized builds
 
->>>>NEWSLIDE
-![CoDe:U Branching Strategy](img/code-u-branching.png)
-<!--- TODO Take Thierrys Git Phlow drawing instead of this --!>
-
->>>>NEWSLIDE
-![PIP Configuration](img/pip-config.png)
-
->>>>NEWSLIDE
-![PIP Configuration cont.](img/pip-config2.png)
+* [Exercise 9](https://github.com/praqma-training/embeddedproject#exercise-9---run-your-build-in-a-defined-environment)
