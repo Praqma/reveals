@@ -109,8 +109,12 @@ pipeline {
 ```
 pipeline {
     agent any
-    stage ('Hello'){
-        echo 'Hello World'
+    stages {
+        stage ('Hello'){
+            steps{
+                sh "echo 'Hello World'"
+            }
+        }
     }
 }
 ```
