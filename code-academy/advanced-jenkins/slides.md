@@ -93,7 +93,7 @@ Give it a good name and select the 'pipeline' type
 
 >>>>NEWSLIDE
 ## Making your first pipeline
-Make exercise 5+6 in the [Gilded rose repository](https://github.com/praqma-training/gildedrose).
+Make exercise 5+6 in the [Gilded rose repository](https://github.com/praqma-training/jenkins-workshop).
 
 
 >>>>NEWSECTION
@@ -131,8 +131,8 @@ sh 'docker run -i --rm --name my-maven-project -v "$PWD":/usr/src/mymaven -w /us
 
 ##Exercises 7+8
 
-* [7](https://github.com/praqma-training/gildedrose#7-archiving)
-* [8](https://github.com/praqma-training/gildedrose#8-dockerize-this)
+* [7](https://github.com/praqma-training/jenkins-workshop#7-archiving)
+* [8](https://github.com/praqma-training/jenkins-workshop#8-dockerize-this)
 
 
 >>>>NEWSECTION
@@ -147,7 +147,7 @@ So every branch on your remote becomes a pipeline. Just push and it will be trig
 
 ##Exercises 9
 
-* [9](https://github.com/praqma-training/gildedrose#9-multibranch-pipeline)
+* [9](https://github.com/praqma-training/jenkins-workshop#9-multibranch-pipeline)
 
 >>>>NEWSECTION
 ## Advanced methods
