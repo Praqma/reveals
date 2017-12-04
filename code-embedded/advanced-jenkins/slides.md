@@ -164,7 +164,7 @@ Creates a set of Pipeline projects according to detected branches in one SCM rep
 
 So every branch on your remote becomes a pipeline. Just push and it will be triggered!
 
-* [9](https://github.com/praqma-training/gildedrose#9-multibranch-pipeline)
+* [9](https://github.com/praqma-training/jenkins-workshop#9-multibranch-pipeline)
 
 
 
