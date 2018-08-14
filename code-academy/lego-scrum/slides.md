@@ -41,5 +41,5 @@ Make sugestions for what is in a city e.g.
 * A bag of LEGO for each construction team
 
 >>>>NEWSECTION
-# Let the game begin!
+## Let's begin!
 ![](img/lego-godzilla.jpg)
