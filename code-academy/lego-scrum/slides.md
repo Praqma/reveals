@@ -21,14 +21,14 @@
 >>>>NEWSECTION
 ## Rules
 
-* You are allowed to use anything else than LEGO as well
+* You are allowed to use anything!
 * PO is the one accepting your deliveries, *so ask*
 * Sprints are fixed time, **be on time**
 
 >>>>NEWSECTION
 ## What is there in a city?
 
-Make sugestions for what is in a city e.g.
+Make suggestions for what is in a city e.g.
 * One story house
 * Two story house
 * Park

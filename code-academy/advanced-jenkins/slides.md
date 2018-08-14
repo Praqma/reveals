@@ -93,7 +93,7 @@ Give it a good name and select the 'pipeline' type
 
 >>>>NEWSLIDE
 ## Making your first pipeline
-Make exercise 5+6 in the [Gilded rose repository](https://github.com/praqma-training/gildedrose).
+Make exercise 5+6 in the [Gilded rose repository](https://github.com/praqma-training/jenkins-workshop).
 
 
 >>>>NEWSECTION
@@ -119,6 +119,22 @@ withDockerContainer('ubuntu:latest') {
 
 ```
 
+or
+
+```
+node{
+sh 'docker run -i --rm --name my-maven-project -v "$PWD":/usr/src/mymaven -w /usr/src/mymaven maven:3-jdk-8 mvn -Dmaven.test.failure.ignore clean package'
+}
+```
+
+>>>>NEWSLIDE
+
+##Exercises 7+8
+
+* [7](https://github.com/praqma-training/jenkins-workshop#7-archiving)
+* [8](https://github.com/praqma-training/jenkins-workshop#8-dockerize-this)
+
+
 >>>>NEWSECTION
 ## Multibranch pipeline
 
@@ -126,6 +142,12 @@ Creates a set of Pipeline projects according to detected branches in one SCM rep
 
 So every branch on your remote becomes a pipeline. Just push and it will be triggered!
 
+
+>>>>NEWSLIDE
+
+##Exercises 9
+
+* [9](https://github.com/praqma-training/jenkins-workshop#9-multibranch-pipeline)
 
 >>>>NEWSECTION
 ## Advanced methods
