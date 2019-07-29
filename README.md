@@ -1,5 +1,5 @@
 ---
-maintainer: lakruzz
+maintainer: sofusalbertsen
 ---
 # How to get it up and running?
 
